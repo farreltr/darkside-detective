@@ -1,0 +1,1577 @@
+<savegame version="1.0.3.127 STEAM" type="0">
+  <name>Princess Ivo</name>
+  <episode>episode_01</episode>
+  <chapter>e01c03</chapter>
+  <gamestate name="start">
+    <preferences />
+    <currentcharacter characterid="characters_ivo" position="3.882124 0 0.9091705" rotation="0 -0.7204836 0 -0.693472" />
+    <items>
+      <item idref="characters_bird" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_palace_bedroom_character_bird_mo_ex_1__2a__2b__3__4a__4b__5a__5b" nameref="none" currentscene="none" currentlocation="none" dialoggroup="bedroom">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_bedroom_character_bird_ex_5b" />
+        <interaction mode="used_by" item="items_e01c03_palace_balcony_sunflower_seeds" sequenceref="sequences_e01c03_palace_bedroom_character_bird_used_mit_sonnenblumenkernen_1" />
+        <interactmouseover itemref="items_e01c03_palace_balcony_sunflower_seeds" textref="texts_e01c03_palace_bedroom_character_bird_mo_used_mit_sonnenblumenkernen" />
+        <interaction mode="talk" sequenceref="sequences_e01c03_palace_bedroom_character_bird_talk_mit_2" />
+        <interaction mode="notopic" sequenceref="sequences_e01c03_palace_bedroom_character_bird_ex_4a" />
+      </item>
+      <item idref="characters_ivo" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="scenes_e01c03_palace_garden" currentlocation="avatar" dialoggroup="default" />
+      <item idref="characters_priest" visualisation="listening2" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_characters_priest" dialoggroup="default" />
+      <item idref="items_e01c03_palace_bedroom_bed" visualisation="default" interactionmode="none" mouseoverref="texts_e01c03_palace_bedroom_bed_mo_ex_1__2" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_bedroom_bed">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_bedroom_bed_ex_2" />
+      </item>
+      <item idref="items_e01c03_palace_bedroom_bowl" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_palace_bedroom_bowl_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_bedroom_bowl">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_bedroom_bowl_ex_3" />
+        <interaction mode="used_by" item="items_e01c03_palace_balcony_sunflower_seeds" sequenceref="sequences_e01c03_palace_bedroom_bowl_used_mit_sunflower_seeds_1" />
+        <interactmouseover itemref="items_e01c03_palace_balcony_sunflower_seeds" textref="texts_e01c03_palace_bedroom_bowl_mo_used_mit_sunflower_seeds_1" />
+        <interaction mode="used_by" item="items_e01c03_palace_garden_honey" sequenceref="sequences_e01c03_palace_bedroom_bowl_used_mit_honig" />
+        <interactmouseover itemref="items_e01c03_palace_garden_honey" textref="texts_e01c03_palace_bedroom_bowl_mo_used_mit_honig" />
+        <interaction mode="used_by" item="items_e01c03_palace_garden_green_fruit" sequenceref="sequences_e01c03_palace_bedroom_bowl_used_mit_frucht" />
+        <interactmouseover itemref="items_e01c03_palace_garden_green_fruit" textref="texts_e01c03_palace_bedroom_bowl_mo_used_mit_frucht" />
+        <interaction mode="used_by" item="items_e01c03_palace_garden_red_herring" sequenceref="sequences_e01c03_palace_bedroom_bowl_used_mit_hering" />
+        <interactmouseover itemref="items_e01c03_palace_garden_red_herring" textref="texts_e01c03_palace_bedroom_bowl_mo_used_mit_hering" />
+        <interaction mode="used_by" item="items_e01c03_palace_bedroom_flagon" sequenceref="sequences_e01c03_palace_bedroom_bowl_used_mit_wasser" />
+        <interactmouseover itemref="items_e01c03_palace_bedroom_flagon" textref="texts_e01c03_palace_bedroom_bowl_mo_used_mit_wasser" />
+        <interaction mode="used_by" item="items_e01c03_palace_garden_stone" sequenceref="sequences_e01c03_palace_bedroom_bowl_used_mit_stein_1" />
+        <interactmouseover itemref="items_e01c03_palace_garden_stone" textref="texts_e01c03_palace_bedroom_bowl_mo_used_mit_stein_1__2" />
+      </item>
+      <item idref="items_e01c03_palace_bedroom_earrings" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none" />
+      <item idref="items_e01c03_palace_bedroom_exit_balcony" visualisation="default" interactionmode="leave" mouseoverref="texts_e01c03_palace_bedroom_exit_balcony_mo_leave_1" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_bedroom_exit_balcony">
+        <interaction mode="leave" sequenceref="none" />
+      </item>
+      <item idref="items_e01c03_palace_bedroom_exit_libary" visualisation="default" interactionmode="leave" mouseoverref="texts_e01c03_palace_bedroom_exit_libary_mo_leave_1" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_bedroom_exit_libary">
+        <interaction mode="examine" sequenceref="none" />
+        <interaction mode="leave" sequenceref="none" />
+      </item>
+      <item idref="items_e01c03_palace_bedroom_figurine" visualisation="default" interactionmode="none" mouseoverref="texts_e01c03_palace_bedroom_figurine_mo_ex_1a__1b" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_bedroom_figurine">
+        <interaction mode="used_by" item="items_e01c03_palace_bedroom_mirror" sequenceref="sequences_e01c03_palace_bedroom_figurine_used_mit_spiegel_1" />
+        <interactmouseover itemref="items_e01c03_palace_bedroom_mirror" textref="texts_e01c03_palace_bedroom_figurine_mo_used_mit_spiegel_1" />
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_bedroom_figurine_ex_1a" />
+      </item>
+      <item idref="items_e01c03_palace_bedroom_flagon" visualisation="default" interactionmode="use" mouseoverref="texts_e01c03_palace_bedroom_flagon_mo_take_1" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_bedroom_flagon">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_bedroom_flagon_ex_1b" />
+        <interaction mode="use" sequenceref="sequences_e01c03_palace_bedroom_flagon_use_1" />
+      </item>
+      <item idref="items_e01c03_palace_bedroom_jewel_case" visualisation="default" interactionmode="use" mouseoverref="texts_e01c03_palace_bedroom_jewel_case_mo_use_3__4__5" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_bedroom_jewel_case">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_bedroom_jewel_case_ex_2" />
+        <interaction mode="use" sequenceref="sequences_e01c03_palace_bedroom_jewel_case_use_4" />
+      </item>
+      <item idref="items_e01c03_palace_bedroom_mirror" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_palace_bedroom_mirror_mo_ex_1-3" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_bedroom_mirror_figure">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_bedroom_mirror_ex_3" />
+        <interaction mode="take" sequenceref="sequences_e01c03_palace_bedroom_mirror_take_2" />
+      </item>
+      <item idref="items_e01c03_palace_bedroom_music_box" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_palace_bedroom_music_box_mo_ex_1__2a__2b__3" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_bedroom_music_box">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_bedroom_music_box_ex_2a" />
+        <interaction mode="use" sequenceref="sequences_e01c03_palace_bedroom_music_box_use_2" />
+      </item>
+      <item idref="items_e01c03_palace_bedroom_paintings" visualisation="default" interactionmode="none" mouseoverref="texts_e01c03_palace_bedroom_paintings_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_bedroom_paintings">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_bedroom_paintings_ex_1" />
+      </item>
+      <item idref="items_e01c03_palace_bedroom_picture_prince" visualisation="default" interactionmode="use" mouseoverref="texts_e01c03_palace_bedroom_picture_prince_mo_ex_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_bedroom_picture_prince_ex_1" />
+      </item>
+      <item idref="items_e01c03_palace_bedroom_potion" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none" />
+      <item idref="items_e01c03_palace_bedroom_red_flower" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_palace_bedroom_red_flower_mo_ex_1-3" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_bedroom_red_flower">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_bedroom_red_flower_ex_3" />
+      </item>
+      <item idref="items_e01c03_palace_bedroom_wollen_hat" visualisation="default" interactionmode="none" mouseoverref="texts_e01c03_palace_bedroom_wollen_hat_mo_ex_1__2" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_bedroom_wollen_hat">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_bedroom_wollen_hat_ex_2" />
+      </item>
+      <item idref="items_e01c03_palace_balcony_exit_bedroom" visualisation="default" interactionmode="leave" mouseoverref="texts_e01c03_palace_balcony_exit_bedroom_mo_leave_1" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_balcony_exit_bedroom">
+        <interaction mode="leave" sequenceref="none" />
+      </item>
+      <item idref="items_e01c03_palace_balcony_balustrade" visualisation="default" interactionmode="leave" mouseoverref="texts_e01c03_palace_balcony_balustrade_mo_leave_1__2__3a__3b__4" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_balcony_balustrade">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_balcony_balustrade_ex_1" />
+        <interaction mode="leave" sequenceref="none" />
+      </item>
+      <item idref="items_e01c03_palace_balcony_sunflower" visualisation="default" interactionmode="take" mouseoverref="texts_e01c03_palace_balcony_sunflower_mo_take_1__2" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_balcony_sunflower">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_balcony_sunflower_ex_1" />
+        <interaction mode="take" sequenceref="sequences_e01c03_palace_balcony_sunflower_take_2" />
+      </item>
+      <item idref="items_e01c03_palace_balcony_sunflower_seeds" visualisation="default" interactionmode="none" mouseoverref="texts_e01c03_palace_balcony_sunflower_seeds_mo_inventar_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_balcony_sunflower_seeds_ex_1" />
+      </item>
+      <item idref="items_e01c03_palace_balcony_telescope" visualisation="default" interactionmode="none" mouseoverref="texts_e01c03_palace_balcony_telescope_mo_betrachen_1-3" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_balcony_telescope">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_balcony_telescope_ex_3" />
+      </item>
+      <item idref="items_e01c03_palace_balcony_transport_crate" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none" />
+      <item idref="items_e01c03_palace_balcony_character_hippogriffin" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none" />
+      <item idref="characters_medicine_book" visualisation="default" interactionmode="talk" mouseoverref="texts_e01c03_palace_libary_charakter_medicine_book_mo_talk_mit_1__2" nameref="none" currentscene="none" currentlocation="positions_characters_medicine_book" dialoggroup="default">
+        <interaction mode="talk" sequenceref="sequences_e01c03_palace_libary_charakter_medicine_book_talk_mit_1" />
+        <interaction mode="notopic" sequenceref="sequences_e01c03_palace_libary_charakter_medicine_book_talk_mit_1" />
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_libary_charakter_medicine_book_ex_1" />
+        <interaction mode="used_by" item="items_e01c03_palace_bedroom_potion" sequenceref="sequences_e01c03_character_medicine_book_top_e01c03_character_medicine_book_trank_3_tseq" />
+        <interactmouseover itemref="items_e01c03_palace_bedroom_potion" textref="texts_e01c03_palace_libary_charakter_medicine_book_mo_used_mit__potion_1" />
+      </item>
+      <item idref="items_start" visualisation="default" interactionmode="leave" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_start">
+        <interaction mode="leave" sequenceref="none" />
+      </item>
+      <item idref="items_e01c03_palace_garden_bush" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_palace_garden_bush_mo_ex_1__2" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_garden_bush">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_garden_bush_ex_2" />
+        <interaction mode="used_by" item="items_e01c03_palace_libary_blossom" sequenceref="sequences_e01c03_palace_garden_bush_used_mit_blossom_1" />
+        <interactmouseover itemref="items_e01c03_palace_libary_blossom" textref="texts_e01c03_palace_garden_bush_mo_used_mit_blossom_1__2" />
+      </item>
+      <item idref="items_e01c03_palace_garden_lovelily" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_palace_garden_lovelily_mo_ex_3__4" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_garden_lovelily">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_garden_lovelily_ex_3" />
+        <interaction mode="used_by" item="items_e01c03_palace_bedroom_red_flower" sequenceref="sequences_e01c03_palace_garden_lovelily_used_mit_red_flower" />
+        <interactmouseover itemref="items_e01c03_palace_bedroom_red_flower" textref="texts_e01c03_palace_garden_lovelily_mo_used_mit_red_flower" />
+        <interaction mode="used_by" item="items_e01c03_palace_libary_blossom" sequenceref="sequences_e01c03_palace_garden_lovelily_used_mit_blossom_2" />
+        <interactmouseover itemref="items_e01c03_palace_libary_blossom" textref="texts_e01c03_palace_garden_lovelily_mo_used_mit_blossom_2" />
+        <interaction mode="used_by" item="items_e01c03_palace_garden_reed" sequenceref="sequences_e01c03_palace_garden_lovelily_used_mit_reed_1" />
+        <interactmouseover itemref="items_e01c03_palace_garden_reed" textref="texts_e01c03_palace_garden_lovelily_mo_used_mit_reed_1" />
+      </item>
+      <item idref="characters_beholder" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_characters_beholder" dialoggroup="default" />
+      <item idref="characters_bonsai" visualisation="lilyThinking" interactionmode="talk" mouseoverref="texts_e01c03_palace_garden_character_bonsai_mo_talk_mit_1-3" nameref="none" currentscene="none" currentlocation="positions_characters_bonsai_blume" dialoggroup="default">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_garden_character_bonsai_ex_2" />
+        <interaction mode="talk" sequenceref="sequences_e01c03_palace_garden_character_bonsai_talk_mit_1" />
+        <interaction mode="notopic" sequenceref="sequences_e01c03_palace_garden_character_bonsai_talk_mit_3" />
+        <interaction mode="used_by" item="items_e01c03_palace_libary_blossom" sequenceref="sequences_e01c03_palace_garden_character_bonsai_used_mit_blossom_1" />
+        <interactmouseover itemref="items_e01c03_palace_libary_blossom" textref="texts_e01c03_palace_garden_character_bonsai_mo_used_mit_blossom_1" />
+        <interaction mode="used_by" item="items_e01c03_palace_libary_book_wood" sequenceref="sequences_e01c03_character_bonsai_top_e01c03_character_bonsai_wood_book_tseq" />
+        <interactmouseover itemref="items_e01c03_palace_libary_book_wood" textref="texts_e01c03_palace_garden_character_bonsai_mo_used_mit_book_wood_1" />
+        <interaction mode="used_by" item="items_e01c03_palace_garden_spade" sequenceref="sequences_e01c03_character_bonsai_top_e01c03_character_bonsai_spade_ausgeliehen_tseq" />
+        <interactmouseover itemref="items_e01c03_palace_garden_spade" textref="texts_e01c03_palace_garden_character_bonsai_mo_used_mit_spade_1" />
+        <interaction mode="used_by" item="items_e01c03_palace_bedroom_red_flower" sequenceref="sequences_e01c03_character_bonsai_top_e01c03_character_bonsai_rote_blume_tseq" />
+        <interactmouseover itemref="items_e01c03_palace_bedroom_red_flower" textref="texts_e01c03_palace_garden_character_bonsai_mo_used_mit_red_flower" />
+        <interaction mode="used_by" item="items_e01c03_palace_garden_earthworms" sequenceref="sequences_e01c03_palace_garden_character_bonsai_used_mit_earthworms" />
+        <interactmouseover itemref="items_e01c03_palace_garden_earthworms" textref="texts_e01c03_palace_garden_character_bonsai_mo_used_mit_earthworms" />
+        <interaction mode="used_by" item="items_e01c03_palace_garden_green_fruit" sequenceref="sequences_e01c03_palace_garden_character_bonsai_used_mit_gruene_metus-frucht" />
+        <interactmouseover itemref="items_e01c03_palace_garden_green_fruit" textref="texts_e01c03_palace_garden_character_bonsai_mo_used_mit_gruene_metus-frucht" />
+      </item>
+      <item idref="characters_druid" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_palace_throne_room_character_father_mo_ex_2__3" nameref="none" currentscene="none" currentlocation="positions_characters_druid" dialoggroup="default">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_throne_room_character_father_ex_1" />
+      </item>
+      <item idref="items_e01c03_palace_garden_bench" visualisation="default" interactionmode="none" mouseoverref="texts_e01c03_palace_garden_bench_mo_use_1" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_garden_bench">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_garden_bench_ex_1" />
+        <interaction mode="use" sequenceref="sequences_e01c03_palace_garden_bench_use_1" />
+      </item>
+      <item idref="items_e01c03_palace_garden_bird_bath" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_palace_garden_bird_bath_mo_ex_1-3" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_garden_bird_bath">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_garden_bird_bath_ex_1" />
+        <interactmouseover itemref="items_e01c03_palace_bedroom_flagon" condition="wasser" textref="texts_e01c03_palace_garden_bird_bath_mo_used_mit_flagon_1" />
+        <interaction mode="used_by" item="items_e01c03_palace_bedroom_flagon" condition="wasser" sequenceref="sequences_e01c03_palace_garden_bird_bath_used_mit_bedroom_flagon_1" />
+        <interaction mode="used_by" item="items_e01c03_palace_garden_honey" sequenceref="sequences_e01c03_palace_garden_bird_bath_used_mit_honey" />
+        <interactmouseover itemref="items_e01c03_palace_garden_honey" textref="texts_e01c03_palace_garden_bird_bath_mo_used_mit_honey" />
+        <interaction mode="used_by" item="items_e01c03_palace_garden_pot_gold" sequenceref="sequences_e01c03_palace_garden_bird_bath_used_mit_pot_gold" />
+        <interactmouseover itemref="items_e01c03_palace_garden_pot_gold" textref="texts_e01c03_palace_garden_bird_bath_mo_used_mit_pot_gold" />
+        <interaction mode="used_by" item="items_e01c03_palace_garden_fishing_pole" sequenceref="sequences_e01c03_palace_garden_bird_bath_used_mit_angel" />
+        <interactmouseover itemref="items_e01c03_palace_garden_fishing_pole" textref="texts_e01c03_palace_garden_bird_bath_mo_used_mit_angel" />
+      </item>
+      <item idref="items_e01c03_palace_garden_bonsai_pot" visualisation="default" interactionmode="none" mouseoverref="texts_e01c03_palace_garden_bonsai_pot_mo_take" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_garden_bonsai_pot">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_garden_bonsai_pot_ex_1b" />
+        <interaction mode="used_by" item="items_e01c03_palace_balcony_sunflower_seeds" sequenceref="sequences_e01c03_palace_garden_bonsai_pot_use_mit_sunflowerseeds_1" />
+        <interactmouseover itemref="items_e01c03_palace_balcony_sunflower_seeds" textref="texts_e01c03_palace_garden_bonsai_pot_mo_use_mit_sunflowerseeds_1" />
+        <interaction mode="take" sequenceref="sequences_e01c03_palace_garden_bonsai_pot_take_1" />
+      </item>
+      <item idref="items_e01c03_palace_garden_crate" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_garden_crate" />
+      <item idref="items_e01c03_palace_garden_earthworms" visualisation="default" interactionmode="use" mouseoverref="texts_e01c03_palace_garden_earthworms_mo_ex_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_garden_earthworms_ex_1" />
+        <interaction mode="use" sequenceref="none" />
+      </item>
+      <item idref="items_e01c03_palace_garden_exit_libary" visualisation="default" interactionmode="leave" mouseoverref="texts_e01c03_palace_bedroom_exit_libary_mo_leave_1" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_garden_exit_libary">
+        <interaction mode="leave" sequenceref="none" />
+      </item>
+      <item idref="items_e01c03_palace_garden_exit_throne" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_palace_garden_exit_throne_mo_ex_1a__1b" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_garden_exit_throne">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_garden_exit_throne_ex_1b" />
+      </item>
+      <item idref="items_e01c03_palace_garden_fishing_pole" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none" />
+      <item idref="items_e01c03_palace_garden_green_fruit" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none" />
+      <item idref="items_e01c03_palace_garden_hive" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_palace_garden_hive_mo_ex_1__2a__2b__3" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_garden_hive">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_garden_hive_ex_2b" />
+        <interaction mode="used_by" item="items_e01c03_palace_garden_reed" sequenceref="sequences_e01c03_palace_garden_hive_used_mit_reed_1" />
+        <interactmouseover itemref="items_e01c03_palace_garden_reed" textref="texts_e01c03_palace_garden_hive_mo_used_mit_reed_1__2" />
+      </item>
+      <item idref="items_e01c03_palace_garden_honey" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none" />
+      <item idref="items_e01c03_palace_garden_lawn" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_garden_lawn" />
+      <item idref="items_e01c03_palace_garden_mirror" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_palace_garden_mirror_mo_ex_1a__1b__2" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_garden_mirror">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_garden_mirror_ex_1b" />
+        <interaction mode="used_by" item="items_e01c03_palace_bedroom_flagon" sequenceref="sequences_e01c03_palace_garden_mirror_used_mit_bedroom_flagon_no" />
+        <interactmouseover itemref="items_e01c03_palace_bedroom_flagon" textref="texts_e01c03_palace_garden_mirror_mo_used_mit_bedroom_flagon_water_normal_1__2" />
+      </item>
+      <item idref="items_e01c03_palace_garden_pond" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_palace_garden_pond_mo_ex_1a__1b__2__3__4__5" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_garden_pond">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_garden_pond_ex_2" />
+        <interaction mode="used_by" item="items_e01c03_palace_garden_fishing_pole" sequenceref="sequences_e01c03_palace_garden_pond_used_mit_angel_1" />
+        <interactmouseover itemref="items_e01c03_palace_garden_fishing_pole" textref="texts_e01c03_palace_garden_pond_mo_used_mit_angel" />
+        <interactmouseover itemref="items_e01c03_palace_bedroom_flagon" condition="empty" textref="texts_e01c03_palace_garden_pond_mo_used_mit_flagon_2" />
+        <interaction mode="used_by" item="items_e01c03_palace_bedroom_flagon" condition="empty" sequenceref="sequences_e01c03_palace_garden_pond_used_mit_bedroom_flagon_2" />
+        <interactmouseover itemref="items_e01c03_palace_bedroom_flagon" condition="wasser" textref="texts_e01c03_palace_garden_pond_mo_used_mit_flagon_1" />
+        <interaction mode="used_by" item="items_e01c03_palace_bedroom_flagon" condition="wasser" sequenceref="sequences_e01c03_palace_garden_pond_used_mit_bedroom_flagon_1" />
+        <interaction mode="used_by" item="items_e01c03_palace_garden_stone" sequenceref="sequences_e01c03_palace_garden_pond_used_mit_stone" />
+        <interactmouseover itemref="items_e01c03_palace_garden_stone" textref="texts_e01c03_palace_garden_pond_mo_used_mit_stone" />
+        <interaction mode="used_by" item="items_e01c03_palace_garden_pot_gold" sequenceref="sequences_e01c03_palace_garden_pond_used_mit_pot_gold" />
+        <interactmouseover itemref="items_e01c03_palace_garden_pot_gold" textref="texts_e01c03_palace_garden_pond_mo_used_mit_pot_gold" />
+      </item>
+      <item idref="items_e01c03_palace_garden_pot_gold" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none" />
+      <item idref="items_e01c03_palace_garden_rainbow" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_garden_rainbow" />
+      <item idref="items_e01c03_palace_garden_red_herring" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none" />
+      <item idref="items_e01c03_palace_garden_reed" visualisation="default" interactionmode="use" mouseoverref="texts_e01c03_palace_garden_reed_mo_inventar" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_garden_reed_ex_2" />
+        <interaction mode="take" sequenceref="sequences_e01c03_palace_garden_reed_take_1" />
+        <interaction mode="use" sequenceref="none" />
+      </item>
+      <item idref="items_e01c03_palace_garden_spade" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_garden_spade" />
+      <item idref="items_e01c03_palace_garden_stone" visualisation="default" interactionmode="use" mouseoverref="texts_e01c03_palace_garden_stone_mo_inventar" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_garden_stone_ex_2" />
+        <interaction mode="take" sequenceref="sequences_e01c03_palace_garden_stone_take_1" />
+        <interaction mode="use" sequenceref="none" />
+      </item>
+      <item idref="items_e01c03_palace_garden_waterfall" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_palace_garden_waterfall_mo_ex_1__2a__2b__3a__3b" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_garden_waterfall">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_garden_waterfall_ex_2b" />
+        <interaction mode="used_by" item="items_e01c03_palace_bedroom_flagon" sequenceref="" />
+        <interactmouseover itemref="items_e01c03_palace_bedroom_flagon" textref="texts_e01c03_palace_garden_waterfall_mo_used_mit_flagon_1__2" />
+      </item>
+      <item idref="items_e01c03_palace_garden_weeping_willow" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_palace_garden_weeping_willow_mo_ex_1a__1b" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_garden_weeping_willow">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_garden_weeping_willow_ex_1b" />
+        <interaction mode="used_by" item="items_e01c03_palace_libary_book_wood" sequenceref="sequences_e01c03_palace_garden_weeping_willow_used_mit_book_wood" />
+        <interactmouseover itemref="items_e01c03_palace_libary_book_wood" textref="texts_e01c03_palace_garden_weeping_willow_mo_used_mit_book_wood" />
+      </item>
+      <item idref="items_e01c03_palace_libary_blossom" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_palace_bedroom_red_flower_mo_ex_1-3" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_libary_blossom">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_libary_blossom_ex_1" />
+      </item>
+      <item idref="items_e01c03_palace_libary_bookshelf_1" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_palace_libary_bookshelf_1_mo_ex_2-6" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_libary_bookshelf_1">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_libary_bookshelf_1_ex_3" />
+      </item>
+      <item idref="items_e01c03_palace_libary_bookshelf_2" visualisation="default" interactionmode="none" mouseoverref="texts_e01c03_palace_libary_bookshelf_2_mo_take_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_libary_bookshelf_2_ex_1" />
+        <interaction mode="take" sequenceref="sequences_e01c03_palace_libary_bookshelf_2_take_1" />
+      </item>
+      <item idref="items_e01c03_palace_libary_bookshelf_3" visualisation="default" interactionmode="none" mouseoverref="texts_e01c03_palace_libary_bookshelf_1_mo_ex_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_libary_bookshelf_3_ex_1" />
+      </item>
+      <item idref="items_e01c03_palace_libary_book_botany" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_palace_libary_book_botany_mo_ex_2__3" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_libary_book_botany">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_libary_book_botany_ex_4" />
+      </item>
+      <item idref="items_e01c03_palace_libary_book_wood" visualisation="default" interactionmode="use" mouseoverref="texts_e01c03_palace_libary_book_wood_mo_inventar" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_libary_book_wood_ex_1" />
+      </item>
+      <item idref="items_e01c03_palace_libary_cubes" visualisation="default" interactionmode="none" mouseoverref="texts_e01c03_palace_libary_cubes_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_libary_cubes">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_libary_cubes_ex_2" />
+      </item>
+      <item idref="items_e01c03_palace_libary_dragon" visualisation="default" interactionmode="none" mouseoverref="texts_e01c03_palace_libary_dragon_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_libary_dragon">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_libary_dragon_ex_1" />
+      </item>
+      <item idref="items_e01c03_palace_libary_exit_bedroom" visualisation="default" interactionmode="leave" mouseoverref="texts_e01c03_palace_libary_exit_bedroom_mo_leave_1__2" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_libary_exit_bedroom">
+        <interaction mode="leave" sequenceref="none" />
+      </item>
+      <item idref="items_e01c03_palace_libary_exit_garden" visualisation="default" interactionmode="leave" mouseoverref="texts_e01c03_palace_libary_exit_garden_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_libary_exit_garden">
+        <interaction mode="leave" sequenceref="none" />
+      </item>
+      <item idref="items_e01c03_palace_libary_helmet" visualisation="default" interactionmode="none" mouseoverref="texts_e01c03_palace_libary_helmet_mo_ex_1__2" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_libary_helmet">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_libary_helmet_ex_2" />
+      </item>
+      <item idref="items_e01c03_palace_libary_monster" visualisation="default" interactionmode="none" mouseoverref="texts_e01c03_palace_libary_monster_mo_ex_1__2" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_libary_monster">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_libary_monster_ex_2" />
+      </item>
+      <item idref="items_e01c03_palace_libary_swords" visualisation="default" interactionmode="use" mouseoverref="texts_e01c03_palace_libary_swords_mo_ex_3" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_libary_swords">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_libary_swords_ex_2" />
+        <interaction mode="use" sequenceref="sequences_e01c03_palace_libary_swords_ex_3" />
+      </item>
+      <item idref="items_e01c03_palace_throne_room_exit__garden" visualisation="default" interactionmode="leave" mouseoverref="texts_e01c03_palace_throne_room_exit__garden_mo_leave_1" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_throne_room_exit__garden">
+        <interaction mode="leave" sequenceref="none" />
+      </item>
+      <item idref="items_e01c03_palace_throne_room_plate_earth" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_palace_throne_room_plate_earth_mo_ex_1-3" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_throne_room_plate_earth">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_throne_room_plate_earth_ex_2" />
+      </item>
+      <item idref="items_e01c03_palace_throne_room_plate_heaven" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_palace_throne_room_plate_earth_mo_ex_1-3" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_throne_room_plate_heaven">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_throne_room_plate_heaven_ex_2" />
+      </item>
+      <item idref="items_e01c03_palace_throne_room_plate_moonlight" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_palace_throne_room_plate_earth_mo_ex_1-3" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_throne_room_plate_moonlight">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_throne_room_plate_moonlight_ex_2" />
+      </item>
+      <item idref="items_e01c03__palace_garden_cap" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none" />
+      <item idref="items_e01c03_palace_balcony_character_bird" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none" />
+      <item idref="items_e01c03_closeup_plants_book_audries" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_closeup_plants_book_audries_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_closeup_plants_book_audries">
+        <interaction mode="examine" sequenceref="sequences_e01c03_closeup_plants_book_audries_ex_1" />
+      </item>
+      <item idref="items_e01c03_closeup_plants_book_grapes_of_wrath" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_closeup_plants_book_grapes_of_wrath_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_closeup_plants_book_grapes_of_wrath">
+        <interaction mode="examine" sequenceref="sequences_e01c03_closeup_plants_book_grapes_of_wrath_ex_1" />
+      </item>
+      <item idref="items_e01c03_closeup_plants_book_killer_tomatoes" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_closeup_plants_book_killer_tomatoes_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_closeup_plants_book_killer_tomatoes">
+        <interaction mode="examine" sequenceref="sequences_e01c03_closeup_plants_book_killer_tomatoes_ex_1" />
+      </item>
+      <item idref="items_e01c03_closeup_plants_book_love_lilies" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_closeup_plants_book_love_lilies_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_closeup_plants_book_love_lilies">
+        <interaction mode="examine" sequenceref="sequences_e01c03_closeup_plants_book_love_lilies_ex_1" />
+      </item>
+      <item idref="items_e01c03_closeup_plants_book_magic_beans" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_closeup_plants_book_magic_beans_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_closeup_plants_book_magic_beans">
+        <interaction mode="examine" sequenceref="sequences_e01c03_closeup_plants_book_magic_beans_ex_1" />
+      </item>
+      <item idref="items_e01c03_closeup_plants_book_mandrake" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_closeup_plants_book_mandrake_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_closeup_plants_book_mandrake">
+        <interaction mode="examine" sequenceref="sequences_e01c03_closeup_plants_book_mandrake_ex_1" />
+      </item>
+      <item idref="items_e01c03_closeup_plants_book_sapient_appletrees" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_closeup_plants_book_sapient_appletrees_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_closeup_plants_book_sapient_appletrees">
+        <interaction mode="examine" sequenceref="sequences_e01c03_closeup_plants_book_sapient_appletrees_ex_1" />
+      </item>
+      <item idref="items_e01c03_closeup_plants_book_steel_magnolias" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_closeup_plants_book_steel_magnolias_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_closeup_plants_book_steel_magnolias">
+        <interaction mode="examine" sequenceref="sequences_e01c03_closeup_plants_book_steel_magnolias_ex_1" />
+      </item>
+      <item idref="items_e01c03__closeup_plants_book__exit" visualisation="default" interactionmode="leave" mouseoverref="texts_e01c03__closeup_plants_book__exit_mo_leave_1" nameref="none" currentscene="none" currentlocation="positions_items_e01c03__closeup_plants_book__exit">
+        <interaction mode="leave" sequenceref="sequences_e01c03__closeup_plants_book__exit_leave_1" />
+      </item>
+      <item idref="items_e01c03_palace_throne_room_mondbrunnen" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_palace_throne_room_mondbrunnen_mo_ex_1-4" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_throne_room_mondbrunnen">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_throne_room_mondbrunnen_ex_2" />
+      </item>
+      <item idref="items_e01c03_palace_throne_room__tree" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_palace_throne_room__tree_mo_ex_1_2" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_throne_room__tree_ex_1" />
+      </item>
+      <item idref="items_e01c03_palace_throne_room__landscape" visualisation="default" interactionmode="examine" mouseoverref="texts_e01c03_palace_throne_room__landscape_mo_ex_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_throne_room__landscape_ex_1" />
+      </item>
+      <item idref="items_e01c03_palace_garden_exit_balcony" visualisation="default" interactionmode="leave" mouseoverref="texts_e01c03_palace_garden_exit_balcony_mo_leave_1-2" nameref="none" currentscene="none" currentlocation="positions_items_e01c03_palace_garden_exit_balcony">
+        <interaction mode="leave" sequenceref="sequences_e01c03_palace_garden_exit_balcony_leave_1" />
+      </item>
+      <item idref="items_e01c03_palace_garden_reed_head" visualisation="default" interactionmode="use" mouseoverref="texts_e01c03_palace_garden_reed_head_mo_ex_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="use" sequenceref="none" />
+        <interaction mode="examine" sequenceref="sequences_e01c03_palace_garden_reed_head_ex_1" />
+      </item>
+      <item idref="characters_hippo" visualisation="box" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none" dialoggroup="default" />
+    </items>
+    <scenes>
+      <scene idref="scenes_e01c03_palace_bedroom" />
+      <scene idref="scenes_e01c03_palace_library" />
+      <scene idref="scenes_e01c03_palace_balcony" />
+      <scene idref="scenes_e01c03_palace_garden" />
+      <scene idref="scenes_e01c03_palace_exterior" />
+      <scene idref="scenes_start" />
+      <scene idref="scenes_e01c03_palace_throne" />
+      <scene idref="scenes_e01c03_closeup_plants_book" />
+    </scenes>
+    <topics>
+      <topic idref="topics_bird_top_e01c03_character_bird_artefakt" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_bird_top_e01c03_character_bird_entschuldigung" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_bird_top_e01c03_character_bird_fluch" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_bird_top_e01c03_character_bird_freiheit" sequenceref="sequences_bird_top_e01c03_character_bird_freiheit_tseq" titleref="texts_bird_top_e01c03_character_bird_freiheit_tseq_title" active="False" />
+      <topic idref="topics_bird_top_e01c03_character_bird_mutter" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_bird_top_e01c03_character_bird_nicht_schwanger" sequenceref="sequences_bird_top_e01c03_character_bird_nicht_schwanger_tseq" titleref="texts_bird_top_e01c03_character_bird_nicht_schwanger_tseq_title" active="True" />
+      <topic idref="topics_bird_top_e01c03_character_bird_plan" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_bird_top_e01c03_character_bird_prinz" sequenceref="sequences_bird_top_e01c03_character_bird_prinz_tseq" titleref="texts_bird_top_e01c03_character_bird_prinz_tseq_title" active="False" />
+      <topic idref="topics_bird_top_e01c03_character_bird_schildwachen" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_bird_top_e01c03_character_bird_schwanger" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_bird_top_e01c03_character_bird_sex" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_bird_top_e01c03_character_bird_sonnenblumenkerne" sequenceref="sequences_bird_top_e01c03_character_bird_sonnenblumenkerne_tseq" titleref="texts_bird_top_e01c03_character_bird_sonnenblumenkerne_tseq_title" active="False" />
+      <topic idref="topics_bird_top_e01c03_character_bird_spiegel" sequenceref="sequences_bird_top_e01c03_character_bird_spiegel_tseq" titleref="texts_bird_top_e01c03_character_bird_spiegel_tseq_title" active="False" />
+      <topic idref="topics_bird_top_e01c03_character_bird_spiegelbild" sequenceref="sequences_bird_top_e01c03_character_bird_spiegelbild_tseq" titleref="texts_bird_top_e01c03_character_bird_spiegelbild_tseq_title" active="False" />
+      <topic idref="topics_bird_top_e01c03_character_bird_sunflower_kraftfutter_1" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_bird_top_e01c03_character_bird_sunflower_kraftfutter_2" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_bird_top_e01c03_character_bird_sunflower_kraftfutter_3" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_bird_top_e01c03_character_bird_transportmittel_1" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_bird_top_e01c03_character_bird_transportmittel_2" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_bird_top_e01c03_character_bird_transportmittel_3" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_bird_top_e01c03_character_bird_unwohlsein" sequenceref="sequences_bird_top_e01c03_character_bird_unwohlsein_tseq" titleref="texts_bird_top_e01c03_character_bird_unwohlsein_tseq_title" active="False" />
+      <topic idref="topics_bird_top_e01c03_character_bird_verabschieden" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_bird_top_e01c03_character_bird_verabschieden_bedroom" sequenceref="sequences_bird_top_e01c03_character_bird_verabschieden_bedroom_tseq" titleref="texts_bird_top_e01c03_character_bird_verabschieden_bedroom_tseq_title" active="True" />
+      <topic idref="topics_bird_top_e01c03_character_bird_verabschieden_erstmalig" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_bird_top_e01c03_character_bird_verabschieden_schaukel" sequenceref="sequences_bird_top_e01c03_character_bird_verabschieden_schaukel_tseq" titleref="texts_bird_top_e01c03_character_bird_verabschieden_schaukel_tseq_title" active="False" />
+      <topic idref="topics_bird_top_e01c03_character_bird_verschlossene_tuer" sequenceref="sequences_bird_top_e01c03_character_bird_verschlossene_tuer_tseq" titleref="texts_bird_top_e01c03_character_bird_verschlossene_tuer_tseq_title" active="False" />
+      <topic idref="topics_e01c03_character_beholder_top_e01c03_character_beholder_allwissend" sequenceref="sequences_e01c03_character_beholder_top_e01c03_character_beholder_allwissend_tseq" titleref="texts_e01c03_character_beholder_top_e01c03_character_beholder_allwissend_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_beholder_top_e01c03_character_beholder_beschwoerung" sequenceref="sequences_e01c03_character_beholder_top_e01c03_character_beholder_beschwoerung_tseq" titleref="texts_e01c03_character_beholder_top_e01c03_character_beholder_beschwoerung_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_beholder_top_e01c03_character_beholder_funktionsweise" sequenceref="sequences_e01c03_character_beholder_top_e01c03_character_beholder_funktionsweise_tseq" titleref="texts_e01c03_character_beholder_top_e01c03_character_beholder_funktionsweise_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_beholder_top_e01c03_character_beholder_losungswort" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_beholder_top_e01c03_character_beholder_rat" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_beholder_top_e01c03_character_beholder_schwangerschaft" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_beholder_top_e01c03_character_beholder_seuche" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_beholder_top_e01c03_character_beholder_spiegelung" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_beholder_top_e01c03_character_beholder_verabschieden_erstmalig" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_druid_top_e01c03_character_druid_artefakt" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_druid_top_e01c03_character_druid_doping_1" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_druid_top_e01c03_character_druid_doping_2" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_druid_top_e01c03_character_druid_hochzeit" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_druid_top_e01c03_character_druid_kerne" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_druid_top_e01c03_character_druid_magie" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_druid_top_e01c03_character_druid_mutter" sequenceref="sequences_e01c03_character_druid_top_e01c03_character_druid_mutter_tseq" titleref="texts_e01c03_character_druid_top_e01c03_character_druid_mutter_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_druid_top_e01c03_character_druid_mutter2" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_druid_top_e01c03_character_druid_reise" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_druid_top_e01c03_character_druid_schwangerschaft" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_druid_top_e01c03_character_druid_tag" sequenceref="sequences_e01c03_character_druid_top_e01c03_character_druid_tag_tseq" titleref="texts_e01c03_character_druid_top_e01c03_character_druid_tag_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_druid_top_e01c03_character_druid_verabschieden" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_priest_top_e01c03_character_priest_dick" sequenceref="sequences_e01c03_character_priest_top_e01c03_character_priest_dick_tseq" titleref="texts_e01c03_character_priest_top_e01c03_character_priest_dick_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_priest_top_e01c03_character_priest_heirat" sequenceref="sequences_e01c03_character_priest_top_e01c03_character_priest_heirat_tseq" titleref="texts_e01c03_character_priest_top_e01c03_character_priest_heirat_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_priest_top_e01c03_character_priest_seuche" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_priest_top_e01c03_character_priest_steintafeln" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_priest_top_e01c03_character_priest_vater" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_priest_top_e01c03_character_priest_verabschieden" sequenceref="sequences_e01c03_character_priest_top_e01c03_character_priest_verabschieden_tseq" titleref="texts_e01c03_character_priest_top_e01c03_character_priest_verabschieden_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_priest_top_e01c03_character_priest_wasser" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_priest_top_e01c03_character_priest_zimmer_kein_maedchen" sequenceref="sequences_e01c03_character_priest_top_e01c03_character_priest_zimmer_kein_maedchen_tseq" titleref="texts_e01c03_character_priest_top_e01c03_character_priest_zimmer_kein_maedchen_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_priest_top_e01c03_character_priest_zimmer_schwanger" sequenceref="sequences_e01c03_character_priest_top_e01c03_character_priest_zimmer_schwanger_tseq" titleref="texts_e01c03_character_priest_top_e01c03_character_priest_zimmer_schwanger_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_priest_top_e01c03_character_priest_zimmer_trainieren" sequenceref="sequences_e01c03_character_priest_top_e01c03_character_priest_zimmer_trainieren_tseq" titleref="texts_e01c03_character_priest_top_e01c03_character_priest_zimmer_trainieren_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_angel" sequenceref="sequences_e01c03_character_bonsai_top_e01c03_character_bonsai_angel_tseq" titleref="texts_e01c03_character_bonsai_top_e01c03_character_bonsai_angel_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_arbeit" sequenceref="sequences_e01c03_character_bonsai_top_e01c03_character_bonsai_arbeit_tseq" titleref="texts_e01c03_character_bonsai_top_e01c03_character_bonsai_arbeit_tseq_title" active="False" />
+      <topic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_aussenwelt" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_baumhirte" sequenceref="sequences_e01c03_character_bonsai_top_e01c03_character_bonsai_baumhirte_tseq" titleref="texts_e01c03_character_bonsai_top_e01c03_character_bonsai_baumhirte_tseq_title" active="False" />
+      <topic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_garten" sequenceref="sequences_e01c03_character_bonsai_top_e01c03_character_bonsai_garten_tseq" titleref="texts_e01c03_character_bonsai_top_e01c03_character_bonsai_garten_tseq_title" active="False" />
+      <topic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_honig" sequenceref="sequences_e01c03_character_bonsai_top_e01c03_character_bonsai_honig_tseq" titleref="texts_e01c03_character_bonsai_top_e01c03_character_bonsai_honig_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_liebeslilie_1" sequenceref="sequences_e01c03_character_bonsai_top_e01c03_character_bonsai_liebeslilie_1_tseq" titleref="texts_e01c03_character_bonsai_top_e01c03_character_bonsai_liebeslilie_1_tseq_title" active="False" />
+      <topic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_liebeslilie_2" sequenceref="sequences_e01c03_character_bonsai_top_e01c03_character_bonsai_liebeslilie_2_tseq" titleref="texts_e01c03_character_bonsai_top_e01c03_character_bonsai_liebeslilie_2_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_metus_strauch" sequenceref="sequences_e01c03_character_bonsai_top_e01c03_character_bonsai_metus_strauch_tseq" titleref="texts_e01c03_character_bonsai_top_e01c03_character_bonsai_metus_strauch_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_metus_strauch_wiederholung" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_mutter" sequenceref="sequences_e01c03_character_bonsai_top_e01c03_character_bonsai_mutter_tseq" titleref="texts_e01c03_character_bonsai_top_e01c03_character_bonsai_mutter_tseq_title" active="False" />
+      <topic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_rauchen" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_reise" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_rote_blume" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_schwangerschaft" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_spade_ausgeliehen" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_spade_weggestellt" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_vater" sequenceref="sequences_e01c03_character_bonsai_top_e01c03_character_bonsai_vater_tseq" titleref="texts_e01c03_character_bonsai_top_e01c03_character_bonsai_vater_tseq_title" active="False" />
+      <topic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_verabschieden" sequenceref="sequences_e01c03_character_bonsai_top_e01c03_character_bonsai_verabschieden_tseq" titleref="texts_e01c03_character_bonsai_top_e01c03_character_bonsai_verabschieden_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_verabschieden_erstmalig" sequenceref="sequences_e01c03_character_bonsai_top_e01c03_character_bonsai_verabschieden_erstmalig_tseq" titleref="texts_e01c03_character_bonsai_top_e01c03_character_bonsai_verabschieden_erstmalig_tseq_title" active="False" />
+      <topic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_wood_book" sequenceref="sequences_e01c03_character_bonsai_top_e01c03_character_bonsai_wood_book_tseq" titleref="texts_e01c03_character_bonsai_top_e01c03_character_bonsai_wood_book_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_diagnose" sequenceref="sequences_e01c03_character_medicine_book_top_e01c03_character_medicine_book_diagnose_tseq" titleref="texts_e01c03_character_medicine_book_top_e01c03_character_medicine_book_diagnose_tseq_title" active="False" />
+      <topic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_geschichte_1" sequenceref="sequences_e01c03_character_medicine_book_top_e01c03_character_medicine_book_geschichte_1_tseq" titleref="texts_e01c03_character_medicine_book_top_e01c03_character_medicine_book_geschichte_1_tseq_title" active="False" />
+      <topic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_geschichte_2" sequenceref="sequences_e01c03_character_medicine_book_top_e01c03_character_medicine_book_geschichte_2_tseq" titleref="texts_e01c03_character_medicine_book_top_e01c03_character_medicine_book_geschichte_2_tseq_title" active="False" />
+      <topic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_green_fruit_1" sequenceref="sequences_e01c03_character_medicine_book_top_e01c03_character_medicine_book_green_fruit_1_tseq" titleref="texts_e01c03_character_medicine_book_top_e01c03_character_medicine_book_green_fruit_1_tseq_title" active="False" />
+      <topic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_green_fruit_2" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_krank" sequenceref="sequences_e01c03_character_medicine_book_top_e01c03_character_medicine_book_krank_tseq" titleref="texts_e01c03_character_medicine_book_top_e01c03_character_medicine_book_krank_tseq_title" active="False" />
+      <topic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_krankheit" sequenceref="sequences_e01c03_character_medicine_book_top_e01c03_character_medicine_book_krankheit_tseq" titleref="texts_e01c03_character_medicine_book_top_e01c03_character_medicine_book_krankheit_tseq_title" active="False" />
+      <topic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_lupus" sequenceref="sequences_e01c03_character_medicine_book_top_e01c03_character_medicine_book_lupus_tseq" titleref="texts_e01c03_character_medicine_book_top_e01c03_character_medicine_book_lupus_tseq_title" active="False" />
+      <topic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_red_hering_1" sequenceref="sequences_e01c03_character_medicine_book_top_e01c03_character_medicine_book_red_hering_1_tseq" titleref="texts_e01c03_character_medicine_book_top_e01c03_character_medicine_book_red_hering_1_tseq_title" active="False" />
+      <topic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_schwangerschaft" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_sex" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_trank_1" sequenceref="sequences_e01c03_character_medicine_book_top_e01c03_character_medicine_book_trank_1_tseq" titleref="texts_e01c03_character_medicine_book_top_e01c03_character_medicine_book_trank_1_tseq_title" active="False" />
+      <topic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_trank_2" sequenceref="sequences_e01c03_character_medicine_book_top_e01c03_character_medicine_book_trank_2_tseq" titleref="texts_e01c03_character_medicine_book_top_e01c03_character_medicine_book_trank_2_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_trank_3" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_trinken_ja" sequenceref="sequences_e01c03_character_medicine_book_top_e01c03_character_medicine_book_trinken_ja_tseq" titleref="texts_e01c03_character_medicine_book_top_e01c03_character_medicine_book_trinken_ja_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_trinken_nein" sequenceref="sequences_e01c03_character_medicine_book_top_e01c03_character_medicine_book_trinken_nein_tseq" titleref="texts_e01c03_character_medicine_book_top_e01c03_character_medicine_book_trinken_nein_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_trinken_spaeter" sequenceref="sequences_e01c03_character_medicine_book_top_e01c03_character_medicine_book_trinken_spaeter_tseq" titleref="texts_e01c03_character_medicine_book_top_e01c03_character_medicine_book_trinken_spaeter_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_verabschieden" sequenceref="sequences_e01c03_character_medicine_book_top_e01c03_character_medicine_book_verabschieden_tseq" titleref="texts_e01c03_character_priest_top_e01c03_character_priest_verabschieden_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_verabschieden_erstmalig" sequenceref="sequences_e01c03_character_medicine_book_top_e01c03_character_medicine_book_verabschieden_erstmalig_tseq" titleref="texts_e01c03_character_medicine_book_top_e01c03_character_medicine_book_verabschieden_erstmalig_tseq_title" active="False" />
+      <topic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_wassererdeerstmalig" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_wassererdewiederholung" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_priest_top_e01c03_character_priest_wassermonderstmalig" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_priest_top_e01c03_character_priest_wassermondmore" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_priest_top_e01c03_character_priest_wassermondwiederholbar" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_priest_top_e01c03_character_priest_waterritual_kosmos" sequenceref="sequences_e01c03_character_priest_top_e01c03_character_priest_waterritual_kosmos_tseq" titleref="texts_e01c03_character_priest_top_e01c03_character_priest_waterritual_kosmos_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_priest_top_e01c03_character_priest_waterritual_mirror" sequenceref="sequences_e01c03_character_priest_top_e01c03_character_priest_waterritual_mirror_tseq" titleref="texts_e01c03_character_priest_top_e01c03_character_priest_waterritual_mirror_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_priest_top_e01c03_character_priest_waterritual_noidea" sequenceref="sequences_e01c03_character_priest_top_e01c03_character_priest_waterritual_noidea_tseq" titleref="texts_e01c03_character_priest_top_e01c03_character_priest_waterritual_noidea_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_priest_top_e01c03_character_priest_watertrank_energie" sequenceref="sequences_e01c03_character_priest_top_e01c03_character_priest_watertrank_energie_tseq" titleref="texts_e01c03_character_priest_top_e01c03_character_priest_watertrank_energie_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_priest_top_e01c03_character_priest_watertrank_schoenheit" sequenceref="sequences_e01c03_character_priest_top_e01c03_character_priest_watertrank_schoenheit_tseq" titleref="texts_e01c03_character_priest_top_e01c03_character_priest_watertrank_schoenheit_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_priest_top_e01c03_character_priest_watertrank_wachstum" sequenceref="sequences_e01c03_character_priest_top_e01c03_character_priest_watertrank_wachstum_tseq" titleref="texts_e01c03_character_priest_top_e01c03_character_priest_watertrank_wachstum_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_priest_top_e01c03_character_priest_water_durst" sequenceref="sequences_e01c03_character_priest_top_e01c03_character_priest_water_durst_tseq" titleref="texts_e01c03_character_priest_top_e01c03_character_priest_water_durst_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_priest_top_e01c03_character_priest_water_ritual" sequenceref="sequences_e01c03_character_priest_top_e01c03_character_priest_water_ritual_tseq" titleref="texts_e01c03_character_priest_top_e01c03_character_priest_water_ritual_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_priest_top_e01c03_character_priest_water_trank" sequenceref="sequences_e01c03_character_priest_top_e01c03_character_priest_water_trank_tseq" titleref="texts_e01c03_character_priest_top_e01c03_character_priest_water_trank_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_verabschiedenbank" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_zutatenausstieg" sequenceref="sequences_e01c03_character_bonsai_top_e01c03_character_bonsai_zutatenausstieg_tseq" titleref="texts_e01c03_character_bonsai_top_e01c03_character_bonsai_zutatenausstieg_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_zutatenerstmalig" sequenceref="sequences_e01c03_character_bonsai_top_e01c03_character_bonsai_zutatenerstmalig_tseq" titleref="texts_e01c03_character_bonsai_top_e01c03_character_bonsai_zutatenerstmalig_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_zutatenwiedereinstieg" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_fishing" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_gold" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_mirror" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_e01c03_character_bird_top_e01c03_character_bird_balconylosungswort" sequenceref="sequences_e01c03_character_bird_top_e01c03_character_bird_balconylosungswort_tseq" titleref="texts_e01c03_character_bird_top_e01c03_character_bird_balconylosungswort_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_bird_top_e01c03_character_bird_balconyseuche" sequenceref="sequences_e01c03_character_bird_top_e01c03_character_bird_balconyseuche_tseq" titleref="texts_e01c03_character_bird_top_e01c03_character_bird_balconyseuche_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_bird_top_e01c03_character_bird_balconyverabschieden" sequenceref="sequences_e01c03_character_bird_top_e01c03_character_bird_balconyverabschieden_tseq" titleref="texts_e01c03_character_bird_top_e01c03_character_bird_balconyverabschieden_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_druid_top_e01c03_character_druid_erleuchtung" sequenceref="sequences_e01c03_character_druid_top_e01c03_character_druid_erleuchtung_tseq" titleref="texts_e01c03_character_druid_top_e01c03_character_druid_erleuchtung_tseq_title" active="True" />
+      <topic idref="topics_e01c03_character_druid_top_e01c03_character_druid_fishinghat" sequenceref="none" titleref="none" active="False" />
+    </topics>
+    <currentscene sceneid="scenes_e01c03_palace_garden" shot="default" />
+    <questlog />
+    <global>
+      <flags />
+    </global>
+    <inventory>
+      <character characterid="characters_ivo">
+        <item itemid="items_e01c03_palace_bedroom_picture_prince" />
+        <item itemid="items_e01c03_palace_garden_stone" />
+        <item itemid="items_e01c03_palace_garden_reed" />
+        <item itemid="items_e01c03_palace_garden_reed_head" />
+        <item itemid="items_e01c03_palace_libary_book_wood" />
+        <item itemid="items_e01c03_palace_garden_earthworms" />
+      </character>
+    </inventory>
+    <party />
+    <logics>
+      <logic idref="items_e01c03_closeup_plants_book_audries">
+        <state stateid="unexamined" />
+      </logic>
+      <logic idref="items_e01c03_closeup_plants_book_grapes_of_wrath">
+        <state stateid="unexamined" />
+      </logic>
+      <logic idref="items_e01c03_closeup_plants_book_killer_tomatoes">
+        <state stateid="unexamined" />
+      </logic>
+      <logic idref="items_e01c03_closeup_plants_book_love_lilies">
+        <property key="bonsai_dialog" value="True" />
+        <property key="read_lovelily" value="True" />
+        <state stateid="unexamined" />
+      </logic>
+      <logic idref="items_e01c03_closeup_plants_book_magic_beans">
+        <state stateid="unexamined" />
+      </logic>
+      <logic idref="items_e01c03_closeup_plants_book_mandrake">
+        <state stateid="unexamined" />
+      </logic>
+      <logic idref="items_e01c03_closeup_plants_book_sapient_appletrees">
+        <state stateid="unexamined" />
+      </logic>
+      <logic idref="items_e01c03_closeup_plants_book_steel_magnolias">
+        <state stateid="unexamined" />
+      </logic>
+      <logic idref="items_e01c03_palace_balcony_balustrade">
+        <state stateid="leave" />
+      </logic>
+      <logic idref="items_e01c03_palace_balcony_character_hippogriffin">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_e01c03_palace_balcony_exit_bedroom">
+        <state stateid="door" />
+      </logic>
+      <logic idref="items_e01c03_palace_balcony_sunflower">
+        <state stateid="trapped" />
+      </logic>
+      <logic idref="items_e01c03_palace_balcony_sunflower_seeds">
+        <property key="inventory" value="False" />
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e01c03_palace_balcony_telescope">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e01c03_palace_balcony_transport_crate">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_e01c03_palace_bedroom_bed">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e01c03_palace_bedroom_bowl">
+        <interactionitem item="items_e01c03_palace_garden_honey" />
+        <interactionitem item="items_e01c03_palace_garden_green_fruit" />
+        <interactionitem item="items_e01c03_palace_garden_red_herring" />
+        <interactionitem item="items_e01c03_palace_bedroom_flagon" />
+        <interactionitem item="items_e01c03_palace_garden_stone" />
+        <state stateid="empty" />
+      </logic>
+      <logic idref="items_e01c03_palace_bedroom_earrings">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_e01c03_palace_bedroom_exit_balcony">
+        <state stateid="door" />
+      </logic>
+      <logic idref="items_e01c03_palace_bedroom_exit_libary">
+        <state stateid="door" />
+      </logic>
+      <logic idref="items_e01c03_palace_bedroom_figurine">
+        <interactionitem item="items_e01c03_palace_bedroom_mirror" />
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e01c03_palace_bedroom_flagon">
+        <state stateid="use1_potion" />
+      </logic>
+      <logic idref="items_e01c03_palace_bedroom_jewel_case">
+        <state stateid="use4" />
+      </logic>
+      <logic idref="items_e01c03_palace_bedroom_mirror">
+        <property key="inventory" value="False" />
+        <state stateid="figure" />
+      </logic>
+      <logic idref="items_e01c03_palace_bedroom_music_box">
+        <state stateid="ex2" />
+      </logic>
+      <logic idref="items_e01c03_palace_bedroom_paintings">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e01c03_palace_bedroom_picture_prince">
+        <state stateid="inventory" />
+      </logic>
+      <logic idref="items_e01c03_palace_bedroom_potion">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_e01c03_palace_bedroom_red_flower">
+        <state stateid="book_botany" />
+      </logic>
+      <logic idref="items_e01c03_palace_bedroom_wollen_hat">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e01c03_palace_garden_bench">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e01c03_palace_garden_bird_bath">
+        <interactionitem item="items_e01c03_palace_bedroom_flagon" condition="wasser" />
+        <interactionitem item="items_e01c03_palace_garden_honey" />
+        <interactionitem item="items_e01c03_palace_garden_pot_gold" />
+        <interactionitem item="items_e01c03_palace_garden_fishing_pole" />
+        <state stateid="ex1" />
+        <state stateid="usedby_Flagon1" />
+        <state stateid="usedby_honey" />
+        <state stateid="usedby_gold" />
+        <state stateid="usedby_pole" />
+      </logic>
+      <logic idref="items_e01c03_palace_garden_bonsai_pot">
+        <interactionitem item="items_e01c03_palace_balcony_sunflower_seeds" />
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e01c03_palace_garden_bush">
+        <interactionitem item="items_e01c03_palace_libary_blossom" />
+        <state stateid="ex2" />
+        <state stateid="usedby_blossom1" />
+        <state stateid="Book_inactive" />
+        <state stateid="Picture_inactive" />
+      </logic>
+      <logic idref="items_e01c03_palace_garden_crate">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_e01c03_palace_garden_earthworms">
+        <property key="inventory" value="True" />
+        <state stateid="Inventory" />
+      </logic>
+      <logic idref="items_e01c03_palace_garden_exit_balcony">
+        <state stateid="leave1" />
+      </logic>
+      <logic idref="items_e01c03_palace_garden_exit_libary">
+        <state stateid="door" />
+      </logic>
+      <logic idref="items_e01c03_palace_garden_exit_throne">
+        <state stateid="ex2" />
+      </logic>
+      <logic idref="items_e01c03_palace_garden_fishing_pole">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_e01c03_palace_garden_green_fruit">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_e01c03_palace_garden_hive">
+        <interactionitem item="items_e01c03_palace_garden_reed" />
+        <state stateid="ex2b" />
+      </logic>
+      <logic idref="items_e01c03_palace_garden_honey">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_e01c03_palace_garden_lawn">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_e01c03_palace_garden_lovelily">
+        <interactionitem item="items_e01c03_palace_bedroom_red_flower" />
+        <interactionitem item="items_e01c03_palace_garden_reed" />
+        <state stateid="book_botany" />
+      </logic>
+      <logic idref="items_e01c03_palace_garden_mirror">
+        <interactionitem item="items_e01c03_palace_bedroom_flagon" />
+        <property key="ex1" value="True" />
+        <state stateid="ex1b" />
+      </logic>
+      <logic idref="items_e01c03_palace_garden_pond">
+        <interactionitem item="items_e01c03_palace_garden_fishing_pole" />
+        <interactionitem item="items_e01c03_palace_bedroom_flagon" condition="empty" />
+        <interactionitem item="items_e01c03_palace_bedroom_flagon" condition="wasser" />
+        <interactionitem item="items_e01c03_palace_garden_stone" />
+        <interactionitem item="items_e01c03_palace_garden_pot_gold" />
+        <state stateid="ex2" />
+        <state stateid="State_1" />
+        <state stateid="empty" />
+        <state stateid="usedby_stone" />
+        <state stateid="usedby_potGold" />
+      </logic>
+      <logic idref="items_e01c03_palace_garden_pot_gold">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_e01c03_palace_garden_rainbow">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_e01c03_palace_garden_red_herring">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_e01c03_palace_garden_reed">
+        <state stateid="Inventroy" />
+      </logic>
+      <logic idref="items_e01c03_palace_garden_reed_head">
+        <state stateid="inventory" />
+      </logic>
+      <logic idref="items_e01c03_palace_garden_spade">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_e01c03_palace_garden_stone">
+        <state stateid="Inventory" />
+      </logic>
+      <logic idref="items_e01c03_palace_garden_waterfall">
+        <interactionitem item="items_e01c03_palace_bedroom_flagon" />
+        <state stateid="ex2b" />
+        <state stateid="Flagon" />
+      </logic>
+      <logic idref="items_e01c03_palace_garden_weeping_willow">
+        <interactionitem item="items_e01c03_palace_libary_book_wood" />
+        <state stateid="ex2" />
+      </logic>
+      <logic idref="items_e01c03_palace_libary_blossom">
+        <state stateid="ex1" />
+      </logic>
+      <logic idref="items_e01c03_palace_libary_bookshelf_1">
+        <property key="ex1" value="True" />
+        <state stateid="ex3" />
+      </logic>
+      <logic idref="items_e01c03_palace_libary_bookshelf_2">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e01c03_palace_libary_bookshelf_3">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e01c03_palace_libary_book_botany">
+        <state stateid="ex4" />
+      </logic>
+      <logic idref="items_e01c03_palace_libary_book_wood">
+        <property key="inventory" value="True" />
+        <state stateid="inventory" />
+      </logic>
+      <logic idref="items_e01c03_palace_libary_cubes">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e01c03_palace_libary_dragon">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e01c03_palace_libary_exit_bedroom">
+        <state stateid="leave2" />
+      </logic>
+      <logic idref="items_e01c03_palace_libary_exit_garden">
+        <state stateid="door" />
+      </logic>
+      <logic idref="items_e01c03_palace_libary_helmet">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e01c03_palace_libary_monster">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e01c03_palace_libary_swords">
+        <property key="sword" value="270" />
+        <state stateid="ex3" />
+      </logic>
+      <logic idref="items_e01c03_palace_throne_room_exit__garden">
+        <state stateid="door" />
+      </logic>
+      <logic idref="items_e01c03_palace_throne_room_mondbrunnen">
+        <state stateid="ex2" />
+      </logic>
+      <logic idref="items_e01c03_palace_throne_room_plate_earth">
+        <state stateid="ex2" />
+      </logic>
+      <logic idref="items_e01c03_palace_throne_room_plate_heaven">
+        <state stateid="ex2" />
+      </logic>
+      <logic idref="items_e01c03_palace_throne_room_plate_moonlight">
+        <state stateid="ex2" />
+      </logic>
+      <logic idref="items_e01c03_palace_throne_room__landscape">
+        <state stateid="unexamined" />
+      </logic>
+      <logic idref="items_e01c03_palace_throne_room__tree">
+        <state stateid="unexamined" />
+      </logic>
+      <logic idref="items_e01c03__closeup_plants_book__exit">
+        <state stateid="door" />
+      </logic>
+      <logic idref="items_e01c03__palace_garden_cap">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_start">
+        <state stateid="door" />
+      </logic>
+      <logic idref="characters_beholder">
+        <state stateid="State1" />
+      </logic>
+      <logic idref="topics_e01c03_character_beholder_top_e01c03_character_beholder_beschwoerung">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_beholder_top_e01c03_character_beholder_allwissend">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_beholder_top_e01c03_character_beholder_funktionsweise">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_beholder_top_e01c03_character_beholder_spiegelung">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_beholder_top_e01c03_character_beholder_rat">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_beholder_top_e01c03_character_beholder_seuche">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_beholder_top_e01c03_character_beholder_schwangerschaft">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_beholder_top_e01c03_character_beholder_losungswort">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_beholder_top_e01c03_character_beholder_verabschieden_erstmalig">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="characters_bird">
+        <property key="mirror" value="False" />
+        <property key="position" value="trap" />
+        <interactionitem item="items_e01c03_palace_balcony_sunflower_seeds" />
+        <property key="trapped" value="True" />
+        <history stateid="State_">
+          <state stateid="dialog_start" />
+        </history>
+        <history stateid="State_3">
+          <state stateid="state_mirror_wall" />
+        </history>
+        <history stateid="State_1">
+          <state stateid="no_talk_3" />
+        </history>
+        <state stateid="trapped" />
+      </logic>
+      <logic idref="topics_bird_top_e01c03_character_bird_verschlossene_tuer">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_bird_top_e01c03_character_bird_artefakt">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_bird_top_e01c03_character_bird_prinz">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_bird_top_e01c03_character_bird_freiheit">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_bird_top_e01c03_character_bird_unwohlsein">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_bird_top_e01c03_character_bird_spiegelbild">
+        <property key="Active" value="False" />
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_bird_top_e01c03_character_bird_sonnenblumenkerne">
+        <property key="Active" value="False" />
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_bird_top_e01c03_character_bird_spiegel">
+        <property key="Active" value="False" />
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_bird_top_e01c03_character_bird_verabschieden_schaukel">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_bird_top_e01c03_character_bird_verabschieden_bedroom">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_bird_top_e01c03_character_bird_nicht_schwanger">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_bird_top_e01c03_character_bird_schwanger">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_bird_top_e01c03_character_bird_mutter">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_bird_top_e01c03_character_bird_fluch">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_bird_top_e01c03_character_bird_plan">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_bird_top_e01c03_character_bird_transportmittel_1">
+        <state stateid="dialog_erstmalig" />
+        <state stateid="topic_plan" />
+      </logic>
+      <logic idref="topics_bird_top_e01c03_character_bird_transportmittel_2">
+        <state stateid="topic_transport1" />
+      </logic>
+      <logic idref="topics_bird_top_e01c03_character_bird_transportmittel_3">
+        <state stateid="topic_transport1" />
+        <state stateid="Goldtopf" />
+      </logic>
+      <logic idref="topics_bird_top_e01c03_character_bird_schildwachen">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_bird_top_e01c03_character_bird_entschuldigung">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_bird_top_e01c03_character_bird_sex">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_bird_top_e01c03_character_bird_sunflower_kraftfutter_1">
+        <state stateid="topic_verabscheiden" />
+        <state stateid="seeds" />
+      </logic>
+      <logic idref="topics_bird_top_e01c03_character_bird_sunflower_kraftfutter_2">
+        <state stateid="topic" />
+        <state stateid="seeds" />
+      </logic>
+      <logic idref="topics_bird_top_e01c03_character_bird_sunflower_kraftfutter_3">
+        <state stateid="topic" />
+        <state stateid="seeds" />
+        <state stateid="gold" />
+      </logic>
+      <logic idref="topics_bird_top_e01c03_character_bird_verabschieden_erstmalig">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_bird_top_e01c03_character_bird_verabschieden">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_bird_top_e01c03_character_bird_balconyseuche">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_bird_top_e01c03_character_bird_balconylosungswort">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_bird_top_e01c03_character_bird_balconyverabschieden">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="characters_bonsai">
+        <interactionitem item="items_e01c03_palace_libary_blossom" />
+        <interactionitem item="items_e01c03_palace_libary_book_wood" />
+        <interactionitem item="items_e01c03_palace_garden_spade" />
+        <interactionitem item="items_e01c03_palace_bedroom_red_flower" />
+        <interactionitem item="items_e01c03_palace_garden_earthworms" />
+        <interactionitem item="items_e01c03_palace_garden_green_fruit" />
+        <property key="position" value="lily" />
+        <history stateid="State_">
+          <state stateid="talk1_blume" />
+        </history>
+        <state stateid="talk1_blume" />
+        <state stateid="usedby_Blossom" />
+        <state stateid="usedby_book" />
+        <state stateid="usedby_spade1" />
+        <state stateid="usedby_Flower" />
+        <state stateid="usedby_earthworms" />
+        <state stateid="usedby_greenfruit" />
+        <state stateid="inactive_reedhead" />
+        <state stateid="lily" />
+      </logic>
+      <logic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_garten">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_baumhirte">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_mutter">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_arbeit">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_vater">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_verabschieden_erstmalig">
+        <property key="Active" value="False" />
+        <property key="active" value="false" />
+        <property key="SpokenCount" value="1" />
+        <property key="spoken" value="True" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_liebeslilie_1">
+        <property key="Active" value="False" />
+        <property key="active" value="false" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_liebeslilie_2">
+        <property key="Active" value="True" />
+        <property key="active" value="true" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_rote_blume">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_metus_strauch">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_metus_strauch_wiederholung">
+        <state stateid="topic_metsu" />
+        <state stateid="done1" />
+      </logic>
+      <logic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_honig">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_angel">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_wood_book">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_spade_ausgeliehen">
+        <state stateid="spade" />
+      </logic>
+      <logic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_spade_weggestellt">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_rauchen">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_aussenwelt">
+        <state stateid="bench" />
+        <state stateid="rauchen" />
+      </logic>
+      <logic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_reise">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_schwangerschaft">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_verabschieden">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_wassererdeerstmalig">
+        <state stateid="topic_water" />
+        <state stateid="topic_reise" />
+        <state stateid="flagon" />
+      </logic>
+      <logic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_wassererdewiederholung">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_verabschiedenbank">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_zutatenerstmalig">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_zutatenwiedereinstieg">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_zutatenausstieg">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_fishing">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_gold">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_bonsai_top_e01c03_character_bonsai_mirror">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="characters_druid">
+        <state stateid="ex1" />
+      </logic>
+      <logic idref="topics_e01c03_character_druid_top_e01c03_character_druid_tag">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_druid_top_e01c03_character_druid_mutter">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_druid_top_e01c03_character_druid_mutter2">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_druid_top_e01c03_character_druid_hochzeit">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_druid_top_e01c03_character_druid_artefakt">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_druid_top_e01c03_character_druid_schwangerschaft">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_druid_top_e01c03_character_druid_reise">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_druid_top_e01c03_character_druid_doping_1">
+        <state stateid="topic_reise" />
+        <state stateid="topic_hippo" />
+        <state stateid="goldtopf_inventory" />
+      </logic>
+      <logic idref="topics_e01c03_character_druid_top_e01c03_character_druid_doping_2">
+        <state stateid="topic_doping" />
+      </logic>
+      <logic idref="topics_e01c03_character_druid_top_e01c03_character_druid_kerne">
+        <state stateid="topic_doping" />
+        <state stateid="seeds" />
+      </logic>
+      <logic idref="topics_e01c03_character_druid_top_e01c03_character_druid_magie">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_druid_top_e01c03_character_druid_verabschieden">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_druid_top_e01c03_character_druid_erleuchtung">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_druid_top_e01c03_character_druid_fishinghat">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="characters_hippo">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="characters_medicine_book">
+        <interactionitem item="items_e01c03_palace_bedroom_potion" />
+        <history stateid="State_">
+          <state stateid="Reden1" />
+        </history>
+        <history stateid="State_1">
+          <state stateid="usedby_potion" />
+        </history>
+        <state stateid="Reden1" />
+        <state stateid="usedby_potion" />
+      </logic>
+      <logic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_krank">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_geschichte_1">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_geschichte_2">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_diagnose">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_krankheit">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_lupus">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_trank_1">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_green_fruit_1">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_green_fruit_2">
+        <state stateid="done" />
+        <state stateid="topic_bonsai" />
+      </logic>
+      <logic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_red_hering_1">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_trank_2">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_trank_3">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_trinken_ja">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_trinken_nein">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_trinken_spaeter">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_sex">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_schwangerschaft">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_verabschieden_erstmalig">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_e01c03_character_medicine_book_top_e01c03_character_medicine_book_verabschieden">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="characters_priest">
+        <state stateid="Throne_firstenter" />
+      </logic>
+      <logic idref="topics_e01c03_character_priest_top_e01c03_character_priest_zimmer_kein_maedchen">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_priest_top_e01c03_character_priest_zimmer_trainieren">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_priest_top_e01c03_character_priest_zimmer_schwanger">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_priest_top_e01c03_character_priest_steintafeln">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_priest_top_e01c03_character_priest_wasser">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_priest_top_e01c03_character_priest_dick">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_priest_top_e01c03_character_priest_heirat">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_priest_top_e01c03_character_priest_vater">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_priest_top_e01c03_character_priest_seuche">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_priest_top_e01c03_character_priest_verabschieden">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_priest_top_e01c03_character_priest_wassermonderstmalig">
+        <state stateid="topic_wasser" />
+        <state stateid="flagon_inventory" />
+      </logic>
+      <logic idref="topics_e01c03_character_priest_top_e01c03_character_priest_wassermondwiederholbar">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_priest_top_e01c03_character_priest_wassermondmore">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_e01c03_character_priest_top_e01c03_character_priest_water_durst">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_priest_top_e01c03_character_priest_water_trank">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_priest_top_e01c03_character_priest_water_ritual">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_priest_top_e01c03_character_priest_watertrank_energie">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_priest_top_e01c03_character_priest_watertrank_schoenheit">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_priest_top_e01c03_character_priest_watertrank_wachstum">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_priest_top_e01c03_character_priest_waterritual_mirror">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_priest_top_e01c03_character_priest_waterritual_kosmos">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_e01c03_character_priest_top_e01c03_character_priest_waterritual_noidea">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="scenes_e01c03_palace_balcony">
+        <history stateid="State_2">
+          <state stateid="normal_ohneKiste" />
+        </history>
+        <state stateid="normal_ohneKiste" />
+      </logic>
+      <logic idref="scenes_e01c03_palace_bedroom">
+        <history stateid="State_2">
+          <state stateid="door_open" />
+        </history>
+        <state stateid="door_open" />
+      </logic>
+      <logic idref="scenes_e01c03_palace_exterior">
+        <history stateid="State_2">
+          <state stateid="entered" />
+        </history>
+        <state stateid="entered" />
+      </logic>
+      <logic idref="scenes_e01c03_palace_garden">
+        <history stateid="State_2">
+          <state stateid="normal" />
+        </history>
+        <state stateid="normal" />
+      </logic>
+      <logic idref="scenes_e01c03_palace_library">
+        <history stateid="State_2">
+          <state stateid="normal" />
+        </history>
+        <state stateid="normal" />
+      </logic>
+      <logic idref="scenes_e01c03_palace_throne">
+        <state stateid="first_enter" />
+      </logic>
+      <logic idref="tasks_durid_erleuchtung">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="tasks_mg_fishing">
+        <state stateid="first" />
+      </logic>
+      <logic idref="tasks_process">
+        <property key="bedroom_escape" value="True" />
+        <property key="potion_recipe" value="True" />
+        <property key="fishing_worm" value="True" />
+        <state stateid="done_bedroom_escape" />
+        <state stateid="done31" />
+        <state stateid="honey_lovelily" />
+        <state stateid="State_2" />
+        <state stateid="fruit_bush" />
+        <state stateid="fruit" />
+        <state stateid="potion" />
+        <state stateid="pregnant" />
+        <state stateid="password" />
+        <state stateid="Priest_water" />
+        <state stateid="gold_rainbow" />
+        <state stateid="gold_magazine" />
+        <state stateid="escape_gold" />
+        <state stateid="power_seed" />
+        <state stateid="get_box" />
+        <state stateid="box_balcony" />
+        <state stateid="hippo" />
+        <state stateid="fishing_cap" />
+        <state stateid="symbol_ex" />
+        <state stateid="heaven_active" />
+        <state stateid="earth_active" />
+        <state stateid="moon_active" />
+        <state stateid="plate_ex" />
+        <state stateid="fishing_skill_incr" />
+        <state stateid="State_7" />
+        <state stateid="blinker" />
+      </logic>
+    </logics>
+    <persistences>
+      <persistence idref="characters_ivo" />
+      <persistence idref="characters_priest" />
+      <persistence idref="PBe_canvasCritter">
+        <attachment targetId="Boden_canvasVieh_pos" />
+      </persistence>
+      <persistence idref="items_e01c03_palace_bedroom_wollen_hat" />
+      <persistence idref="FocusCamera" />
+      <persistence idref="PBa_Seeds_Bowl" />
+      <persistence idref="ivo_pos_dialogSwing" />
+      <persistence idref="UCv_Stone" />
+      <persistence idref="Red_Flower" />
+      <persistence idref="PBe_canvasWilbur">
+        <attachment targetId="Boden_canvasWilbur_pos" />
+      </persistence>
+      <persistence idref="PBe_Door_Roots">
+        <visualState value="door_open@end" />
+      </persistence>
+      <persistence idref="PBa_Bird_Swing">
+        <visualState value="sittingSwing_ts_sittingBox@end" />
+      </persistence>
+      <persistence idref="Focus_JewelCase" />
+      <persistence idref="items_e01c03_palace_bedroom_music_box" />
+      <persistence idref="PBe_Door">
+        <visualState value="open" />
+      </persistence>
+      <persistence idref="items_e01c03_palace_bedroom_flagon" />
+      <persistence idref="items_e01c03_palace_bedroom_mirror" />
+      <persistence idref="PBe_Flagon" />
+      <persistence idref="Ivo_Fishinghat" />
+      <persistence idref="PBe_Glass_for_Potion" />
+      <persistence idref="items_e01c03_palace_bedroom_paintings" />
+      <persistence idref="PBe_Mirror_State1">
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="PBa_Earrings" />
+      <persistence idref="items_e01c03_palace_bedroom_bed" />
+      <persistence idref="PBe_Mirror_State2">
+        <enabled value="True" />
+      </persistence>
+      <persistence idref="PBe_Music_Box">
+        <visualState value="standard_boxTrap@end" />
+      </persistence>
+      <persistence idref="items_e01c03_palace_bedroom_bowl" />
+      <persistence idref="sp_library" />
+      <persistence idref="items_e01c03_palace_bedroom_figurine" />
+      <persistence idref="PBe_Frame">
+        <attachment targetId="Ivo_rHand_item" />
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="items_e01c03_palace_bedroom_exit_balcony" />
+      <persistence idref="PBe_canvasNate">
+        <attachment targetId="Boden_canvasNate_pos" />
+      </persistence>
+      <persistence idref="items_e01c03_palace_bedroom_jewel_case" />
+      <persistence idref="characters_bird" />
+      <persistence idref="sp_library_target" />
+      <persistence idref="PBe_Case_Cover">
+        <visualState value="standard_closeCask@end" />
+      </persistence>
+      <persistence idref="items_e01c03_palace_bedroom_red_flower" />
+      <persistence idref="items_e01c03_palace_bedroom_exit_libary" />
+      <persistence idref="items_e01c03_palace_balcony_character_hippogriffin" />
+      <persistence idref="PBe_WantedPoster">
+        <visualState value="default" />
+      </persistence>
+      <persistence idref="characters_hippo" />
+      <persistence idref="items_e01c03_palace_balcony_telescope" />
+      <persistence idref="items_e01c03_palace_balcony_balustrade" />
+      <persistence idref="PBa_Transport_Crate" />
+      <persistence idref="items_e01c03_palace_balcony_transport_crate" />
+      <persistence idref="items_e01c03_palace_balcony_sunflower" />
+      <persistence idref="items_e01c03_palace_balcony_exit_bedroom" />
+      <persistence idref="PG_Willow">
+        <visualState value="willowHappy" />
+        <enabled value="True" />
+      </persistence>
+      <persistence idref="focus_cam" />
+      <persistence idref="items_e01c03_palace_garden_bush" />
+      <persistence idref="items_e01c03_palace_garden_rainbow" />
+      <persistence idref="Ivo_GrabReed_Pos" />
+      <persistence idref="items_e01c03_palace_garden_lovelily" />
+      <persistence idref="items_e01c03_palace_garden_weeping_willow" />
+      <persistence idref="PG_Ent_Pipe" />
+      <persistence idref="items_e01c03_palace_garden_spade" />
+      <persistence idref="mt_garden_crate" />
+      <persistence idref="PG_Funny_fishing_stuff_bikehandle" />
+      <persistence idref="items_e01c03_palace_garden_stone" />
+      <persistence idref="Rainbow" />
+      <persistence idref="items_e01c03_palace_garden_pond" />
+      <persistence idref="Ivo_GrabWorms_Pos" />
+      <persistence idref="items_e01c03_palace_garden_bench" />
+      <persistence idref="PG_Fishing_Rod" />
+      <persistence idref="PG_Leaf" />
+      <persistence idref="items_e01c03_palace_garden_exit_libary" />
+      <persistence idref="PG_Lily">
+        <visualState value="sad" />
+        <enabled value="True" />
+      </persistence>
+      <persistence idref="items_e01c03_palace_garden_reed" />
+      <persistence idref="items_e01c03_palace_garden_mirror" />
+      <persistence idref="metusBush_Green" />
+      <persistence idref="items_e01c03_palace_garden_hive" />
+      <persistence idref="Ivo_BenchDialog_Pos" />
+      <persistence idref="items_e01c03_palace_garden_bird_bath" />
+      <persistence idref="items_e01c03_palace_garden_exit_balcony" />
+      <persistence idref="metusBush_Red" />
+      <persistence idref="PG_Pot_Gold" />
+      <persistence idref="Ivo_GrabPot_Pos" />
+      <persistence idref="items_e01c03_palace_garden_bonsai_pot" />
+      <persistence idref="PG_Reed" />
+      <persistence idref="items_e01c03_palace_garden_lawn" />
+      <persistence idref="Ivo_GrabSpade_Pos" />
+      <persistence idref="PG_funny_fishing_stuff_FishermansHat" />
+      <persistence idref="Ivo_OpenDoor_Pos" />
+      <persistence idref="characters_beholder" />
+      <persistence idref="PL_blossom" />
+      <persistence idref="PL_Standardbook_02">
+        <visualState value="bookshelf2" />
+        <enabled value="False" />
+        <attachment targetId="Ivo_rHand_item" />
+      </persistence>
+      <persistence idref="PG_Calyx" />
+      <persistence idref="Ivo_LilyDialog_Pos" />
+      <persistence idref="PBe_Red_Flower" />
+      <persistence idref="PG_Stone">
+        <visualState value="groundPot" />
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="PG_Hive">
+        <visualState value="hanging" />
+        <enabled value="True" />
+      </persistence>
+      <persistence idref="SP_Library_target" />
+      <persistence idref="Ivo_ReadWillow_Pos" />
+      <persistence idref="PG_funny_fishing_stuff_Boots" />
+      <persistence idref="Ivo_TouchWillow_Pos" />
+      <persistence idref="PG_Red_Herring" />
+      <persistence idref="Ivo_GrabStone_Pos" />
+      <persistence idref="Ivo_BonsaiPotDialog_Pos" />
+      <persistence idref="PG_Bee_Effect" />
+      <persistence idref="characters_bonsai" />
+      <persistence idref="PG_funny_fishing_Stuff_Wilson" />
+      <persistence idref="PG_Spade">
+        <attachment targetId="Bonsai_R_Hand_item" />
+        <enabled value="True" />
+      </persistence>
+      <persistence idref="items_e01c03_palace_garden_waterfall" />
+      <persistence idref="PG_Ent_Smoke_Effect" />
+      <persistence idref="items_e01c03_palace_garden_crate" />
+      <persistence idref="PG_Leaf_02" />
+      <persistence idref="PG_Bonsai_Pot" />
+      <persistence idref="items_e01c03_palace_garden_exit_throne" />
+      <persistence idref="PG_funny_fishing_stuff_titanic_choker" />
+      <persistence idref="items_e01c03_palace_libary_helmet" />
+      <persistence idref="items_e01c03_palace_libary_exit_garden" />
+      <persistence idref="items_e01c03_palace_libary_blossom" />
+      <persistence idref="PL_Standardbook_03">
+        <visualState value="plantsbook" />
+        <enabled value="False" />
+        <attachment targetId="Ivo_lHand_item" />
+      </persistence>
+      <persistence idref="PBe_Glass_for_Potion_BG" />
+      <persistence idref="FT_magazin" />
+      <persistence idref="ivo_bird_seeds_pos" />
+      <persistence idref="items_e01c03_palace_libary_bookshelf_2" />
+      <persistence idref="ivo_medibook_hidden_pos" />
+      <persistence idref="ivo_bookshelf3_pos" />
+      <persistence idref="items_e01c03_palace_libary_cubes" />
+      <persistence idref="items_e01c03_palace_libary_exit_bedroom" />
+      <persistence idref="items_e01c03_palace_libary_swords" />
+      <persistence idref="ivo_sword_pos" />
+      <persistence idref="ivo_blossom_pos" />
+      <persistence idref="ivo_potGold_pos" />
+      <persistence idref="ivo_bookshelf1_pos" />
+      <persistence idref="items_e01c03_palace_libary_monster" />
+      <persistence idref="PL_Standardbook">
+        <visualState value="medibook_table" />
+        <attachment targetId="PL_medibook_table_pos" />
+        <enabled value="True" />
+      </persistence>
+      <persistence idref="characters_medicine_book" />
+      <persistence idref="ivo_medibook_shoked_pos" />
+      <persistence idref="MT_dialog_vogel_monster" />
+      <persistence idref="mt_monster_dialog" />
+      <persistence idref="PL_Standardbook_04" />
+      <persistence idref="items_e01c03_palace_libary_bookshelf_1" />
+      <persistence idref="items_e01c03_palace_libary_bookshelf_3" />
+      <persistence idref="default_cam" />
+      <persistence idref="items_e01c03_palace_libary_dragon" />
+      <persistence idref="ivo_magazine_pos" />
+      <persistence idref="ivo_stairs_bedroom_pos" />
+      <persistence idref="ivo_medibook_table_pos" />
+      <persistence idref="ivo_bookshelf2__pos" />
+      <persistence idref="PL_Swords">
+        <visualState value="sword3_ts_sword4@end" />
+      </persistence>
+      <persistence idref="PL_Bird_Newspaper" />
+      <persistence idref="items_e01c03_palace_libary_book_botany" />
+      <persistence idref="items_e01c03_closeup_plants_book_mandrake" />
+      <persistence idref="items_e01c03__closeup_plants_book__exit" />
+      <persistence idref="items_e01c03_closeup_plants_book_grapes_of_wrath" />
+      <persistence idref="items_e01c03_closeup_plants_book_magic_beans" />
+      <persistence idref="items_e01c03_closeup_plants_book_audries" />
+      <persistence idref="items_e01c03_closeup_plants_book_steel_magnolias" />
+      <persistence idref="items_e01c03_closeup_plants_book_killer_tomatoes" />
+      <persistence idref="items_e01c03_closeup_plants_book_love_lilies" />
+      <persistence idref="items_e01c03_closeup_plants_book_sapient_appletrees" />
+    </persistences>
+    <databinding />
+  </gamestate>
+  <timeplayed>43520797436</timeplayed>
+  <creationdatetime>635705168856407879</creationdatetime>
+</savegame>

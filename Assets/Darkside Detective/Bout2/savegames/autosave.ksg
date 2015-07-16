@@ -1,0 +1,1328 @@
+<savegame episodeComplete="False" targetedEpisode="" version="1.0.3.127 STEAM" type="2">
+  <name>Autosave</name>
+  <episode>episode_02</episode>
+  <chapter>e02c01</chapter>
+  <timeplayed>275923083715</timeplayed>
+  <creationdatetime>635716280774191416</creationdatetime>
+  <gamestate name="start">
+    <preferences />
+    <currentcharacter characterid="characters_critter" position="-2.216105 0.00591791 0.8509952" rotation="0 -0.6634598 0 0.748212" />
+    <scenes>
+      <scene idref="scenes_start" />
+      <scene idref="scenes_e02c01_special_mystery" />
+      <scene idref="scenes_e02c01_isle_hall" />
+      <scene idref="scenes_e02c01_isle_street" />
+      <scene idref="scenes_e02c01_isle_harbor" />
+      <scene idref="scenes_e02c01_isle_closeupbook" />
+    </scenes>
+    <items>
+      <item idref="characters_nate" visualisation="default" interactionmode="talk" mouseoverref="texts_nate_mo_talk" nameref="none" currentscene="scenes_e02c01_isle_hall" currentlocation="inactive" dialoggroup="default">
+        <interaction mode="used_by" item="items_e02c01_isle_hall_peanuts" sequenceref="sequences_nate_seq_used_mit_peanuts" />
+        <interactmouseover itemref="items_e02c01_isle_hall_peanuts" textref="texts_nate_mo_used_mit_peanuts" />
+        <interaction mode="used_by" item="items_e02c01_isle_hall_page" sequenceref="sequences_nate_seq_used_mit_page" />
+        <interactmouseover itemref="items_e02c01_isle_hall_page" textref="texts_nate_mo_used_mit_page" />
+        <interaction mode="used_by" item="items_e02c01_isle_harbor_barrellid" sequenceref="sequences_nate_seq_used_mit_barrellid" />
+        <interactmouseover itemref="items_e02c01_isle_harbor_barrellid" textref="none" />
+        <interaction mode="used_by" item="items_e02c01_isle_harbor_fez" sequenceref="sequences_nate_seq_used_mit_fez" />
+        <interactmouseover itemref="items_e02c01_isle_harbor_fez" textref="texts_nate_mo_used_mit_fez" />
+        <interaction mode="talk" sequenceref="sequences_nate_talk_mit_1" />
+        <interaction mode="examine" sequenceref="sequences_nate_ex_by_critter" />
+      </item>
+      <item idref="characters_voice" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_characters_voice" dialoggroup="default" />
+      <item idref="characters_critter" visualisation="default" interactionmode="talk" mouseoverref="texts_critter_mo_talk" nameref="none" currentscene="scenes_e02c01_isle_hall" currentlocation="avatar" dialoggroup="default">
+        <interaction mode="talk" sequenceref="sequences_critter_talk_mit_1" />
+        <interaction mode="examine" sequenceref="sequences_nate_ex_1" />
+        <interaction mode="used_by" item="items_e02c01_isle_hall_peanuts" sequenceref="sequences_critter_seq_citter_used_mit_peanuts" />
+        <interactmouseover itemref="items_e02c01_isle_hall_peanuts" textref="texts_critter_used_mit_peanuts" />
+        <interaction mode="used_by" item="items_e02c01_isle_hall_page" sequenceref="sequences_critter_seq_citter_used_mit_page" />
+        <interactmouseover itemref="items_e02c01_isle_hall_page" textref="texts_critter_used_mit_page" />
+        <interaction mode="used_by" item="items_e02c01_isle_harbor_barrellid" sequenceref="sequences_critter_seq_citter_used_mit_barrellid" />
+        <interactmouseover itemref="items_e02c01_isle_harbor_barrellid" textref="none" />
+        <interaction mode="used_by" item="items_e02c01_isle_harbor_fez" sequenceref="sequences_critter_seq_citter_used_mit_fez" />
+        <interactmouseover itemref="items_e02c01_isle_harbor_fez" textref="texts_critter_used_mit_fez" />
+      </item>
+      <item idref="characters_ape" visualisation="bar" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_characters_ape" dialoggroup="default">
+        <interaction mode="used_by" item="items_e02c01_isle_harbor_fez" sequenceref="sequences_e02c01_isle_hall_characterape_used_mit_isle_harbor_fez_vieh" characterId="characters_critter" />
+        <interactmouseover itemref="items_e02c01_isle_harbor_fez" textref="texts_e02c01_isle_hall_characterape_mo_used_mit_isle_harbor_fez_vieh" characterId="characters_critter" />
+        <interaction mode="used_by" item="items_e02c01_isle_hall_peanuts" sequenceref="sequences_ape_used_mit_hall_peanuts_critter" characterId="characters_critter" />
+        <interactmouseover itemref="items_e02c01_isle_hall_peanuts" textref="texts_ape_mo_used_mit_hall_peanuts" characterId="characters_critter" />
+        <interaction mode="used_by" item="items_e02c01_isle_harbor_fez" sequenceref="sequences_e02c01_isle_hall_characterape_used_mit_isle_harbor_fez_nate" characterId="characters_nate" />
+        <interactmouseover itemref="items_e02c01_isle_harbor_fez" textref="texts_e02c01_isle_hall_characterape_mo_used_mit_isle_harbor_fez_vieh" characterId="characters_nate" />
+        <interaction mode="used_by" item="items_e02c01_isle_hall_peanuts" sequenceref="sequences_ape_used_mit_hall_peanuts_nate" characterId="characters_nate" />
+        <interactmouseover itemref="items_e02c01_isle_hall_peanuts" textref="texts_ape_mo_used_mit_hall_peanuts" characterId="characters_nate" />
+        <characters_critter interactionmode="talk" mouseoverref="texts_e02c01_isle_hall_characterape_mo_talk_mit_vieh_1" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="sequences_e02c01_isle_hall_characterape_ex_vieh_1" />
+        <interaction mode="talk" characterId="characters_critter" sequenceref="sequences_e02c01_isle_hall_characterape_talk_mit_vieh_1" />
+        <interaction mode="notopic_characters_critter" sequenceref="none" />
+        <characters_nate interactionmode="examine" mouseoverref="texts_e02c01_isle_hall_characterape_mo_ex_nate_1__2a__2b" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="sequences_e02c01_isle_hall_characterape_ex_nate_2a" />
+        <interaction mode="used_by" item="items_e02c01_isle_street_pan" sequenceref="sequences_ape_used_mit_street_pan" characterId="characters_critter" />
+        <interactmouseover itemref="items_e02c01_isle_street_pan" textref="texts_ape_mo_used_mit_street_pan" characterId="characters_critter" />
+        <interaction mode="used_by" item="items_e02c01_isle_hall_page" sequenceref="sequences_ape_top_e02c01_character_ape_viehdrinks_katerkiller_tseq" characterId="characters_critter" />
+        <interactmouseover itemref="items_e02c01_isle_hall_page" textref="texts_ape_mo_used_mit_hall_page" characterId="characters_critter" />
+        <interaction mode="used_by" item="items_e02c01_isle_street_coconut" sequenceref="sequences_ape_used_mit_street_coconut" characterId="characters_critter" />
+        <interactmouseover itemref="items_e02c01_isle_street_coconut" textref="texts_ape_mo_used_mit_street_coconut" characterId="characters_critter" />
+        <interaction mode="used_by" item="items_e02c01_isle_hall_glass" sequenceref="sequences_ape_used_mit_hall_glass" characterId="characters_critter" />
+        <interactmouseover itemref="items_e02c01_isle_hall_glass" textref="texts_ape_mo_used_mit_hall_glass" characterId="characters_critter" />
+      </item>
+      <item idref="items_e02c01_isle_hall_exitstreet" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_hall_exitstreet">
+        <characters_critter interactionmode="leave" mouseoverref="texts_e02c01_isle_hall_exitstreet_mo_leave_vieh_1" />
+        <interaction mode="leave" characterId="characters_critter" sequenceref="none" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="none" />
+        <characters_nate interactionmode="leave" mouseoverref="texts_e02c01_isle_hall_exitstreet_mo_leave_vieh_1" />
+        <interaction mode="leave" characterId="characters_nate" sequenceref="none" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="none" />
+      </item>
+      <item idref="items_e02c01_isle_hall_oillamp" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_hall_oillamp">
+        <characters_critter interactionmode="examine" mouseoverref="texts_e02c01_isle_hall_oillamp_mo_ex_vieh_1" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="sequences_e02c01_isle_hall_oillamp_ex_vieh_2" />
+        <characters_nate interactionmode="examine" mouseoverref="texts_e02c01_isle_hall_oillamp_mo_ex_vieh_1" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="sequences_e02c01_isle_hall_oillamp_ex_nate_1" />
+        <interaction mode="take" characterId="characters_critter" sequenceref="sequences_e02c01_isle_hall_oillamp_take_vieh1" />
+      </item>
+      <item idref="items_e02c01_isle_hall_hornofplenty" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_hall_hornofplenty">
+        <characters_critter interactionmode="none" mouseoverref="texts_e02c01_isle_hall_hornofplenty_mo_ex_vieh_1" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="sequences_e02c01_isle_hall_hornofplenty_ex_vieh_1" />
+        <interactmouseover itemref="items_e02c01_isle_street_pan" condition="empty" characterId="characters_critter" textref="texts_e02c01_isle_hall_hornofplenty_mo_used_mit_street_pan_vieh_1" />
+        <interactmouseover itemref="items_e02c01_isle_street_pan" condition="full" characterId="characters_critter" textref="texts_e02c01_isle_hall_hornofplenty_mo_used_mit_street_pan_vieh_2" />
+        <interaction mode="used_by" item="items_e02c01_isle_street_pan" condition="empty" characterId="characters_critter" sequenceref="sequences_e02c01_isle_hall_hornofplenty_used_mit_street_pan_vieh_1" />
+        <interaction mode="used_by" item="items_e02c01_isle_street_pan" condition="full" characterId="characters_critter" sequenceref="sequences_e02c01_isle_hall_hornofplenty_used_mit_street_pan_vieh_2" />
+        <interaction mode="used_by" item="items_e02c01_isle_hall_glass" sequenceref="sequences_e02c01_isle_hall_hornofplenty_used_mit_hall_glass" characterId="characters_critter" />
+        <interactmouseover itemref="items_e02c01_isle_hall_glass" textref="texts_e02c01_isle_hall_hornofplenty_mo_used_mit_hall_glass" characterId="characters_critter" />
+        <characters_nate interactionmode="none" />
+      </item>
+      <item idref="items_e02c01_isle_hall_excalibur" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_hall_excalibur">
+        <interaction mode="used_by" item="items_e02c01_isle_street_coconut" sequenceref="sequences_e02c01_isle_hall_excalibur_used_mit_street_coconut_vieh" characterId="characters_critter" />
+        <interactmouseover itemref="items_e02c01_isle_street_coconut" textref="texts_e02c01_isle_hall_excalibur_mo_used_mit_street_coconut_vieh" characterId="characters_critter" />
+        <characters_critter interactionmode="none" mouseoverref="texts_e02c01_isle_hall_excalibur_mo_ex_vieh_1" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="sequences_e02c01_isle_hall_excalibur_ex_vieh_1" />
+        <characters_nate interactionmode="none" mouseoverref="texts_e02c01_isle_hall_excalibur_mo_take_vieh_1" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="none" />
+        <interaction mode="take" characterId="characters_critter" sequenceref="sequences_e02c01_isle_hall_excalibur_take_vieh1" />
+        <interaction mode="take" characterId="characters_nate" sequenceref="sequences_e02c01_isle_hall_excalibur_take_nate1" />
+      </item>
+      <item idref="items_e02c01_isle_hall_coconutmilk" visualisation="default" interactionmode="none" mouseoverref="texts_e02c01_isle_hall_coconutmilk_mo_ex_vieh_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="used_by" item="items_e02c01_isle_hall_glass" sequenceref="sequences_e02c01_isle_hall_glass_used_mit_isle_hall_coconutmilk_vieh" />
+        <interactmouseover itemref="items_e02c01_isle_hall_glass" textref="texts_e02c01_isle_hall_glass_mo_used_mit_isle_hall_coconutmilk" />
+        <interaction mode="examine" sequenceref="sequences_e02c01_isle_hall_coconutmilk_ex_vieh_1" />
+      </item>
+      <item idref="items_e02c01_isle_hall_coconutcup" visualisation="default" interactionmode="none" mouseoverref="texts_e02c01_isle_hall_coconutcup_mo_ex_vieh_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e02c01_isle_hall_coconutcup_ex_vieh_1" />
+      </item>
+      <item idref="items_e02c01_isle_hall_compass" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_hall_compass">
+        <characters_critter interactionmode="none" mouseoverref="texts_e02c01_isle_hall_compass_mo_ex_vieh_1" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="sequences_e02c01_isle_hall_compass_ex_vieh_1" />
+        <characters_nate interactionmode="none" mouseoverref="texts_e02c01_isle_hall_compass_mo_ex_vieh_1" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="sequences_e02c01_isle_hall_compass_ex_nate_1" />
+      </item>
+      <item idref="items_e02c01_isle_hall_book" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_hall_book">
+        <characters_critter interactionmode="examine" mouseoverref="texts_e02c01_isle_hall_book_mo_ex_vieh_1" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="sequences_e02c01_isle_hall_book_ex_vieh_2" />
+        <characters_nate interactionmode="none" mouseoverref="texts_e02c01_isle_hall_book_mo_ex_nate_1" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="sequences_e02c01_isle_hall_book_ex_nate_1" />
+      </item>
+      <item idref="items_e02c01_isle_hall_page" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none">
+        <characters_critter interactionmode="use" mouseoverref="texts_e02c01_isle_hall_page_mo_ex_vieh_2" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="sequences_e02c01_isle_hall_page_ex_vieh_1" />
+        <characters_nate interactionmode="use" mouseoverref="texts_e02c01_isle_hall_page_mo_ex_vieh_2" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="sequences_e02c01_isle_hall_page_ex_nate_1" />
+      </item>
+      <item idref="items_e02c01_isle_hall_peanuts" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="used_by" item="items_e02c01_isle_street_pan" condition="" sequenceref="sequences_e02c01_isle_street_pan_used_mit_hall_peanuts" />
+        <interactmouseover itemref="items_e02c01_isle_street_pan" textref="texts_e02c01_isle_street_pan_mo_used_mit_hall_peanuts" />
+        <characters_critter interactionmode="use" mouseoverref="texts_e02c01_isle_hall_peanuts_mo_ex_vieh_1" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="sequences_e02c01_isle_hall_peanuts_ex_vieh_1" />
+        <interaction mode="used_by" item="items_e02c01_isle_hall_glass" condition="" sequenceref="sequences_e02c01_isle_hall_glass_used_mit_hall_peanuts" />
+        <interactmouseover itemref="items_e02c01_isle_hall_glass" textref="texts_e02c01_isle_hall_glass_mo_used_mit_hall_peanuts" />
+        <characters_nate interactionmode="use" mouseoverref="texts_e02c01_isle_hall_peanuts_mo_ex_vieh_1" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="sequences_e02c01_isle_hall_peanuts_ex_nate_2" />
+      </item>
+      <item idref="items_e02c01_isle_hall_drinkkaterkiller" visualisation="default" interactionmode="none" mouseoverref="texts_e02c01_isle_hall_drinkkaterkiller_mo_ex_vieh_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e02c01_isle_hall_drinkkaterkiller_ex_vieh_1" />
+      </item>
+      <item idref="items_e02c01_isle_hall_fezape" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none">
+        <characters_critter interactionmode="take" mouseoverref="texts_e02c01_isle_hall_fezape_mo_ex_vieh_1" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="sequences_e02c01_isle_hall_fezape_ex_vieh_1" />
+        <interaction mode="take" characterId="characters_critter" sequenceref="sequences_e02c01_isle_hall_fezape_take_vieh1" />
+        <interaction mode="used_by" item="items_e02c01_isle_harbor_fez" characterId="characters_critter" sequenceref="sequences_e02c01_isle_hall_fezape_used_mit_isle_harbor_fez_vieh" />
+        <interactmouseover itemref="items_e02c01_isle_harbor_fez" textref="texts_e02c01_isle_hall_fezape_mo_used_mit_isle_harbor_fez_vieh" characterId="characters_critter" />
+        <characters_nate interactionmode="take" mouseoverref="texts_e02c01_isle_hall_fezape_mo_ex_vieh_1" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="sequences_e02c01_isle_hall_fezape_ex_nate_1" />
+        <interaction mode="take" characterId="characters_nate" sequenceref="sequences_e02c01_isle_hall_fezape_take_nate1" />
+        <interaction mode="used_by" item="items_e02c01_isle_harbor_fez" characterId="characters_nate" sequenceref="sequences_e02c01_isle_hall_fezape_used_mit_isle_harbor_fez_nate" />
+        <interactmouseover itemref="items_e02c01_isle_harbor_fez" textref="texts_e02c01_isle_hall_fezape_mo_used_mit_isle_harbor_fez_vieh" characterId="characters_nate" />
+      </item>
+      <item idref="items_e02c01_isle_hall_medusa" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_hall_medusa">
+        <characters_critter interactionmode="take" mouseoverref="texts_e02c01_isle_hall_medusa_mo_take_vieh_1" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="none" />
+        <characters_nate interactionmode="examine" mouseoverref="texts_e02c01_isle_hall_medusa_mo_ex_nate_1__3" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="sequences_e02c01_isle_hall_medusa_ex_nate_3" />
+        <interaction mode="take" characterId="characters_critter" sequenceref="sequences_e02c01_isle_hall_medusa_take_vieh1" />
+      </item>
+      <item idref="items_e02c01_isle_hall_characterpirate" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none" />
+      <item idref="characters_pirate" visualisation="sleep" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_characters_pirate" dialoggroup="default">
+        <interaction mode="used_by" item="items_e02c01_isle_street_pan" condition="empty" characterId="characters_critter" sequenceref="sequences_pirate_used_mit_street_pan_1" />
+        <interactmouseover itemref="items_e02c01_isle_street_pan" condition="empty" characterId="characters_critter" textref="texts_pirate_mo_used_mit_street_pan_1" />
+        <interaction mode="used_by" item="items_e02c01_isle_street_pan" condition="full" characterId="characters_critter" sequenceref="sequences_pirate_used_mit_street_pan_2" />
+        <interactmouseover itemref="items_e02c01_isle_street_pan" condition="full" characterId="characters_critter" textref="texts_pirate_mo_used_mit_street_pan_2" />
+        <characters_critter interactionmode="talk" mouseoverref="texts_e02c01_isle_hall_characterpirate_mo_talk_mit_vieh_1-2" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="none" />
+        <characters_nate interactionmode="examine" mouseoverref="texts_e02c01_isle_hall_characterpirate_mo_talk_mit_vieh_1-2" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="sequences_e02c01_isle_hall_characterpirate_ex_nate_2" />
+        <interaction mode="talk" characterId="characters_critter" sequenceref="sequences_e02c01_isle_hall_characterpirate_talk_mit_vieh_1" />
+      </item>
+      <item idref="characters_hunter" visualisation="street" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_characters_hunter" dialoggroup="default">
+        <interaction mode="used_by" item="items_e02c01_isle_hall_page" characterId="characters_critter" sequenceref="sequences_hunter_top_e02c01_character_hunter_viehstandard_katerkiller_tseq" />
+        <interactmouseover itemref="items_e02c01_isle_hall_page" textref="texts_hunter_mo_used_mit_hall_page_2" characterId="characters_critter" />
+        <characters_critter interactionmode="examine" mouseoverref="texts_e02c01_isle_street_characterhunter_mo_ex_nate" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="sequences_e02c01_isle_street_characterhunter_ex_vieh_1" />
+        <interaction mode="talk" characterId="characters_critter" sequenceref="sequences_e02c01_isle_street_characterhunter_talk_mit_vieh_2" />
+        <interaction mode="notopic_characters_critter" sequenceref="sequences_e02c01_isle_street_characterhunter_talk_mit_vieh_3" />
+        <characters_nate interactionmode="examine" mouseoverref="texts_e02c01_isle_street_characterhunter_mo_ex_nate" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="sequences_e02c01_isle_street_characterhunter_ex_nate_1" />
+        <interaction mode="used_by" item="items_e02c01_isle_hall_peanuts" characterId="characters_critter" sequenceref="sequences_hunter_used_mit_hall_peanuts" />
+        <interactmouseover itemref="items_e02c01_isle_hall_peanuts" textref="texts_hunter_mo_used_mit_hall_peanuts" characterId="characters_critter" />
+        <interaction mode="used_by" item="items_e02c01_isle_hall_glass" characterId="characters_critter" sequenceref="sequences_hunter_used_mit_hall_glass" />
+        <interactmouseover itemref="items_e02c01_isle_hall_glass" textref="texts_hunter_mo_used_mit_hall_glass" characterId="characters_critter" />
+        <interaction mode="used_by" item="items_e02c01_isle_harbor_salt" characterId="characters_critter" sequenceref="sequences_hunter_used_mit_habor_salt" />
+        <interactmouseover itemref="items_e02c01_isle_harbor_salt" textref="texts_hunter_mo_used_mit_habor_salt" characterId="characters_critter" />
+        <interaction mode="used_by" item="items_e02c01_isle_hall_peppermint" characterId="characters_critter" sequenceref="sequences_hunter_used_mit_hall_peppermint" />
+        <interactmouseover itemref="items_e02c01_isle_hall_peppermint" textref="texts_hunter_mo_used_mit_hall_peppermint" characterId="characters_critter" />
+        <interaction mode="used_by" item="items_e02c01_isle_hall_coconutcup" characterId="characters_critter" sequenceref="sequences_hunter_used_mit_street_coconut" />
+        <interactmouseover itemref="items_e02c01_isle_hall_coconutcup" textref="texts_hunter_mo_used_mit_street_coconut" characterId="characters_critter" />
+        <interaction mode="used_by" item="items_e02c01_isle_street_coconut" characterId="characters_critter" sequenceref="sequences_hunter_used_mit_street_coconut" />
+        <interactmouseover itemref="items_e02c01_isle_street_coconut" textref="texts_hunter_mo_used_mit_street_coconut" characterId="characters_critter" />
+        <interaction mode="used_by" item="items_e02c01_isle_street_pan" condition="full" characterId="characters_critter" sequenceref="sequences_hunter_used_mit_hall_pan_or_hall_coconutmilk" />
+        <interactmouseover itemref="items_e02c01_isle_street_pan" condition="full" characterId="characters_critter" textref="texts_hunter_mo_used_mit_hall_pan_or_hall_coconutmilk" />
+        <interaction mode="used_by" item="items_e02c01_isle_hall_coconutmilk" characterId="characters_critter" sequenceref="sequences_hunter_used_mit_hall_pan_or_hall_coconutmilk" />
+        <interactmouseover itemref="items_e02c01_isle_hall_coconutmilk" textref="texts_hunter_mo_used_mit_hall_pan_or_hall_coconutmilk" characterId="characters_critter" />
+      </item>
+      <item idref="items_e02c01_isle_street_exithall" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_street_exithall">
+        <characters_critter interactionmode="leave" mouseoverref="texts_e02c01_isle_street_exithall_mo_leave_vieh_1" />
+        <interaction mode="leave" characterId="characters_critter" sequenceref="none" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="none" />
+        <characters_nate interactionmode="leave" mouseoverref="texts_e02c01_isle_street_exithall_mo_leave_vieh_1" />
+        <interaction mode="leave" characterId="characters_nate" sequenceref="none" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="none" />
+      </item>
+      <item idref="items_e02c01_isle_street_exitharbor" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_street_exitharbor">
+        <characters_critter interactionmode="leave" mouseoverref="texts_e02c01_isle_street_exitharbor_mo_leave_vieh_1" />
+        <interaction mode="leave" characterId="characters_critter" sequenceref="none" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="none" />
+        <characters_nate interactionmode="leave" mouseoverref="texts_e02c01_isle_street_exitharbor_mo_leave_vieh_1" />
+        <interaction mode="leave" characterId="characters_nate" sequenceref="none" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="none" />
+      </item>
+      <item idref="items_e02c01_isle_street_watertrough" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_street_watertrough">
+        <interactmouseover itemref="items_e02c01_isle_hall_drinkkaterkiller" textref="texts_e02c01_isle_street_watertrough_mo_used_mit_isle_hall_glas_vieh" characterId="characters_critter" />
+        <interaction mode="used_by" item="items_e02c01_isle_hall_drinkkaterkiller" sequenceref="sequences_e02c01_isle_street_watertrough_used_mit_isle_hall_drinkkaterkiller_vieh" characterId="characters_critter" />
+        <interaction mode="used_by" item="items_e02c01_isle_street_pan" condition="full" characterId="characters_critter" sequenceref="sequences_e02c01_isle_street_watertrough_used_mit_street_pan" />
+        <interactmouseover itemref="items_e02c01_isle_street_pan" condition="full" characterId="characters_critter" textref="texts_e02c01_isle_street_watertrough_mo_used_mit_street_pan" />
+        <interaction mode="used_by" item="items_e02c01_isle_street_coconut" sequenceref="sequences_e02c01_isle_street_watertrough_used_mit_street_coconut" characterId="characters_critter" />
+        <interactmouseover itemref="items_e02c01_isle_street_coconut" textref="texts_e02c01_isle_street_watertrough_mo_used_mit_street_coconut" characterId="characters_critter" />
+        <characters_critter interactionmode="none" mouseoverref="texts_e02c01_isle_street_watertrough_mo_use_vieh_1" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="none" />
+        <characters_nate interactionmode="none" mouseoverref="texts_e02c01_isle_street_watertrough_mo_ex_nate_1" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="sequences_e02c01_isle_street_watertrough_ex_nate_1" />
+        <interaction mode="use" characterId="characters_critter" sequenceref="sequences_e02c01_isle_street_watertrough_use_vieh_1" />
+      </item>
+      <item idref="items_e02c01_isle_street_statue1" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_street_statue1">
+        <characters_critter interactionmode="none" mouseoverref="texts_e02c01_isle_street_statue1_mo_take_vieh_1" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="none" />
+        <characters_nate interactionmode="none" mouseoverref="texts_e02c01_isle_street_statue1_mo_ex_vieh_1" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="sequences_e02c01_isle_street_statue1_ex_nate_1" />
+        <interaction mode="take" characterId="characters_critter" sequenceref="sequences_e02c01_isle_street_statue1_take_vieh_1" />
+      </item>
+      <item idref="items_e02c01_isle_street_statue2" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_street_statue2">
+        <characters_critter interactionmode="none" mouseoverref="texts_e02c01_isle_street_statue1_mo_ex_vieh_1" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="sequences_e02c01_isle_street_statue2_ex_vieh_1" />
+        <characters_nate interactionmode="none" mouseoverref="texts_e02c01_isle_street_statue1_mo_ex_vieh_1" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="sequences_e02c01_isle_street_statue2_ex_nate_1" />
+      </item>
+      <item idref="items_e02c01_isle_street_statue3" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_street_statue3">
+        <characters_critter interactionmode="none" mouseoverref="texts_e02c01_isle_street_statue1_mo_ex_vieh_1" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="sequences_e02c01_isle_street_statue3_ex_vieh_1" />
+        <characters_nate interactionmode="examine" mouseoverref="texts_e02c01_isle_street_statue1_mo_ex_vieh_1" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="sequences_e02c01_isle_street_statue3_ex_nate_1" />
+      </item>
+      <item idref="items_e02c01_isle_street_pan" visualisation="water" interactionmode="use" mouseoverref="texts_e02c01_isle_street_pan_mo_ex_vieh_2" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="used_by" item="items_e02c01_isle_hall_peanuts" condition="" sequenceref="sequences_e02c01_isle_street_pan_used_mit_hall_peanuts" />
+        <interactmouseover itemref="items_e02c01_isle_hall_peanuts" textref="texts_e02c01_isle_street_pan_mo_used_mit_hall_peanuts" />
+        <interaction mode="examine" sequenceref="sequences_e02c01_isle_street_pan_ex_vieh_2" />
+      </item>
+      <item idref="items_e02c01_isle_street_pillory" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_street_pillory">
+        <characters_critter interactionmode="none" mouseoverref="texts_e02c01_isle_street_pillory_mo_ex_vieh_1" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="sequences_e02c01_isle_street_pillory_ex_vieh_1" />
+        <characters_nate interactionmode="none" mouseoverref="texts_e02c01_isle_street_pillory_mo_ex_vieh_1" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="sequences_e02c01_isle_street_pillory_ex_nate_1" />
+      </item>
+      <item idref="items_e02c01_isle_street_shop" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_street_shop">
+        <characters_critter interactionmode="none" mouseoverref="texts_e02c01_isle_street_shop_mo_ex_vieh_1" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="sequences_e02c01_isle_street_shop_ex_vieh_1" />
+        <characters_nate interactionmode="examine" mouseoverref="texts_e02c01_isle_street_shop_mo_ex_vieh_1" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="sequences_e02c01_isle_street_shop_ex_nate_2" />
+      </item>
+      <item idref="items_e02c01_isle_street_coconuttree" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_street_coconuttree">
+        <characters_critter interactionmode="none" mouseoverref="texts_e02c01_isle_street_coconuttree_mo_take_vieh_1" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="none" />
+        <characters_nate interactionmode="examine" mouseoverref="texts_e02c01_isle_street_coconuttree_mo_ex_vieh_1" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="sequences_e02c01_isle_street_coconuttree_ex_nate_1" />
+        <interaction mode="take" characterId="characters_critter" sequenceref="sequences_e02c01_isle_street_coconuttree_take_vieh_1" />
+      </item>
+      <item idref="items_e02c01_isle_street_coconut" visualisation="default" interactionmode="none" mouseoverref="texts_e02c01_isle_street_coconut_mo_ex_vieh_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="take" sequenceref="sequences_e02c01_isle_street_coconut_take_vieh_1" />
+        <interaction mode="examine" sequenceref="sequences_e02c01_isle_street_coconut_ex_vieh_2" />
+      </item>
+      <item idref="items_e02c01_isle_street_pinboard" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_street_pinboard">
+        <characters_critter interactionmode="none" mouseoverref="texts_e02c01_isle_street_pinboard_mo_ex_vieh_1" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="sequences_e02c01_isle_street_pinboard_ex_vieh_1" />
+        <characters_nate interactionmode="none" mouseoverref="texts_e02c01_isle_street_pinboard_mo_ex_vieh_1" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="sequences_e02c01_isle_street_pinboard_ex_nate_1" />
+      </item>
+      <item idref="characters_djinn" visualisation="default" interactionmode="talk" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none" dialoggroup="default">
+        <interaction mode="examine" sequenceref="none" />
+        <interaction mode="notopic" sequenceref="none" />
+      </item>
+      <item idref="items_e02c01_isle_harbor_exitstreet" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_harbor_exitstreet" interactionflags="1">
+        <characters_critter interactionmode="leave" mouseoverref="texts_e02c01_isle_harbor_exitstreet_mo_leave_vieh_1" />
+        <interaction mode="leave" characterId="characters_critter" sequenceref="none" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="none" />
+        <characters_nate interactionmode="leave" mouseoverref="texts_e02c01_isle_harbor_exitstreet_mo_leave_vieh_1" />
+        <interaction mode="leave" characterId="characters_nate" sequenceref="none" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="none" />
+      </item>
+      <item idref="items_e02c01_isle_harbor_mirror" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_harbor_mirror">
+        <characters_critter interactionmode="use" mouseoverref="texts_e02c01_isle_harbor_mirror_mo_use_mit_vieh" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="sequences_e02c01_isle_harbor_mirror_ex_vieh_2" />
+        <characters_nate interactionmode="none" mouseoverref="texts_e02c01_isle_harbor_mirror_mo_ex_nate_1" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="sequences_e02c01_isle_harbor_mirror_ex_nate_1" />
+        <interaction mode="use" characterId="characters_critter" sequenceref="none" />
+      </item>
+      <item idref="items_e02c01_isle_harbor_bitt" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_harbor_bitt">
+        <characters_critter interactionmode="none" mouseoverref="texts_e02c01_isle_harbor_bitt_mo_take_vieh_2" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="sequences_e02c01_isle_harbor_bitt_ex_vieh_2" />
+        <interaction mode="used_by" item="items_e02c01_isle_street_pan" characterId="characters_critter" sequenceref="sequences_e02c01_isle_harbor_bitt_used_mit_isle_street_pan_vieh" />
+        <interactmouseover itemref="items_e02c01_isle_street_pan" textref="texts_e02c01_isle_harbor_bitt_mo_used_mit_isle_street_pan_vieh_1" characterId="characters_critter" />
+        <interaction mode="used_by" item="items_e02c01_isle_harbor_mirror" characterId="characters_critter" sequenceref="sequences_e02c01_isle_harbor_bitt_used_mit_isle_harbor_mirror_vieh_3" />
+        <interactmouseover itemref="items_e02c01_isle_harbor_mirror" textref="texts_e02c01_isle_harbor_bitt_mo_used_mit_isle_habor_mirror_vieh_3" characterId="characters_critter" />
+        <characters_nate interactionmode="none" mouseoverref="texts_e02c01_isle_harbor_bitt_mo_ex_vieh_1" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="sequences_e02c01_isle_harbor_bitt_ex_nate_1" />
+        <interaction mode="take" characterId="characters_critter" sequenceref="sequences_e02c01_isle_harbor_bitt_take_vieh_2" />
+      </item>
+      <item idref="items_e02c01_isle_harbor_salt" visualisation="default" interactionmode="none" mouseoverref="texts_e02c01_isle_harbor_salt_mo_ex_vieh_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="used_by" item="items_e02c01_isle_hall_glass" sequenceref="sequences_e02c01_isle_hall_glass_used_mit_isle_harbor_salt_vieh" />
+        <interactmouseover itemref="items_e02c01_isle_hall_glass" textref="texts_e02c01_isle_hall_glass_mo_used_mit_isle_harbor_salt_vieh" />
+        <interaction mode="examine" sequenceref="sequences_e02c01_isle_harbor_salt_ex_vieh_1" />
+      </item>
+      <item idref="items_e02c01_isle_harbor_mary" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_harbor_mary">
+        <characters_critter interactionmode="examine" mouseoverref="texts_e02c01_isle_harbor_mary_mo_ex_vieh_1" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="sequences_e02c01_isle_harbor_mary_ex_vieh_1" />
+        <interaction mode="used_by" item="items_e02c01_isle_harbor_mirror" sequenceref="sequences_e02c01_isle_harbor_mary_used_mit_isle_harbor_mirror_vieh" characterId="characters_critter" />
+        <interactmouseover itemref="items_e02c01_isle_harbor_mirror" textref="texts_e02c01_isle_harbor_mary_mo_used_mit_isle_harbor_mirror_vieh" characterId="characters_critter" />
+        <characters_nate interactionmode="examine" mouseoverref="texts_e02c01_isle_harbor_mary_mo_ex_vieh_1" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="sequences_e02c01_isle_harbor_mary_ex_nate_2" />
+      </item>
+      <item idref="items_e02c01_isle_harbor_magiclock" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_harbor_magiclock">
+        <characters_critter interactionmode="use" mouseoverref="texts_e02c01_isle_harbor_magiclock_mo_use_vieh_1" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="none" />
+        <interaction mode="used_by" item="items_e02c01_isle_harbor_mirror" sequenceref="sequences_e02c01_isle_harbor_magiclock_used_mit_isle_harbor_mirror_vieh" characterId="characters_critter" />
+        <interactmouseover itemref="items_e02c01_isle_harbor_mirror" textref="texts_e02c01_isle_harbor_magiclock_mo_used_mit_isle_harbor_mirror_vieh" characterId="characters_critter" />
+        <characters_nate interactionmode="examine" mouseoverref="texts_e02c01_isle_harbor_magiclock_mo_ex_nate_1-3" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="sequences_e02c01_isle_harbor_magiclock_ex_nate_2a" />
+        <interaction mode="use" characterId="characters_critter" sequenceref="sequences_e02c01_isle_harbor_magiclock_use_vieh_1" />
+      </item>
+      <item idref="items_e02c01_isle_harbor_blanket" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_harbor_blanket">
+        <characters_critter interactionmode="none" />
+        <characters_nate interactionmode="none" />
+      </item>
+      <item idref="items_e02c01_isle_harbor_barrel" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_harbor_barrel">
+        <characters_critter interactionmode="none" />
+        <characters_nate interactionmode="none" />
+      </item>
+      <item idref="items_e02c01_isle_harbor_barrellid" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none" />
+      <item idref="items_e02c01_isle_harbor_box" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_harbor_box" />
+      <item idref="items_e02c01_isle_harbor_fez" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none" />
+      <item idref="characters_parrot" visualisation="barrel" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_characters_parrot" dialoggroup="default" interactionflags="1">
+        <navigationFlags scenes_e02c01_isle_harbor="17" />
+        <interaction mode="used_by" item="items_e02c01_isle_harbor_mirror" sequenceref="sequences_e02c01_isle_harbor_characterparrot_used_mit_isle_harbor_mirror_vieh" characterId="characters_critter" />
+        <interactmouseover itemref="items_e02c01_isle_harbor_mirror" textref="texts_e02c01_isle_harbor_characterparrot_mo_used_mit_isle_harbor_mirror_vieh" characterId="characters_critter" />
+        <characters_critter interactionmode="talk" mouseoverref="texts_e02c01_isle_harbor_characterparrot_mo_talk_mit_vieh_1-3" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="none" />
+        <characters_nate interactionmode="examine" mouseoverref="texts_e02c01_isle_harbor_characterparrot_mo_ex_vieh_1" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="sequences_e02c01_isle_harbor_characterparrot_ex_nate_2" />
+        <interaction mode="used_by" item="items_e02c01_isle_hall_peanuts" sequenceref="sequences_e02c01_isle_harbor_characterparrot_used_mit_isle_hall_peanuts_vieh_1" characterId="characters_critter" />
+        <interactmouseover itemref="items_e02c01_isle_hall_peanuts" textref="texts_e02c01_isle_harbor_characterparrot_mo_used_mit__isle_hall_peanuts_vieh_1" characterId="characters_critter" />
+        <interaction mode="used_by" item="items_e02c01_isle_hall_peanuts" characterId="characters_nate" sequenceref="sequences_e02c01_isle_harbor_characterparrot_used_mit_isle_hall_peanuts_nate_2" />
+        <interactmouseover itemref="items_e02c01_isle_hall_peanuts" textref="texts_e02c01_isle_harbor_characterparrot_mo_used_mit__isle_hall_peanuts_vieh_2" characterId="characters_nate" />
+        <interaction mode="talk" characterId="characters_nate" sequenceref="sequences_e02c01_isle_harbor_characterparrot_talk_mit_nate_2" />
+        <interaction mode="talk" characterId="characters_critter" sequenceref="sequences_e02c01_isle_harbor_characterparrot_talk_mit_vieh_1" />
+      </item>
+      <item idref="items_starter" visualisation="default" interactionmode="leave" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_starter">
+        <interaction mode="leave" sequenceref="none" />
+      </item>
+      <item idref="items_e02c01_isle_hall_peanutsbowl" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_hall_peanutsbowl">
+        <characters_critter interactionmode="take" mouseoverref="texts_e02c01_isle_hall_peanutsbowl_mo_take_vieh_1" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="sequences_e02c01_isle_hall_peanutsbowl_ex_vieh_1" />
+        <characters_nate interactionmode="take" mouseoverref="texts_e02c01_isle_hall_peanutsbowl_mo_take_vieh_1" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="sequences_e02c01_isle_hall_peanutsbowl_ex_nate_2" />
+        <interaction mode="take" characterId="characters_critter" sequenceref="sequences_e02c01_isle_hall_peanutsbowl_take_vieh1" />
+        <interaction mode="take" characterId="characters_nate" sequenceref="sequences_e02c01_isle_hall_peanutsbowl_take_nate1" />
+      </item>
+      <item idref="items_e02c01_isle_hall_glass" visualisation="milk" interactionmode="none" mouseoverref="texts_e02c01_isle_hall_glass_mo_use_vieh_2" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e02c01_isle_hall_glass_ex_vieh_2" />
+        <interaction mode="used_by" item="items_e02c01_isle_hall_peanuts" condition="" sequenceref="sequences_e02c01_isle_hall_glass_used_mit_hall_peanuts" />
+        <interactmouseover itemref="items_e02c01_isle_hall_peanuts" textref="texts_e02c01_isle_hall_glass_mo_used_mit_hall_peanuts" />
+        <interaction mode="used_by" item="items_e02c01_isle_hall_peppermint" sequenceref="sequences_e02c01_isle_hall_glass_used_mit_isle_hall_peppermint_vieh" />
+        <interactmouseover itemref="items_e02c01_isle_hall_peppermint" textref="texts_e02c01_isle_hall_glass_mo_used_mit_isle_hall_peppermint" />
+        <interaction mode="used_by" item="items_e02c01_isle_hall_coconutmilk" sequenceref="sequences_e02c01_isle_hall_glass_used_mit_isle_hall_coconutmilk_vieh" />
+        <interactmouseover itemref="items_e02c01_isle_hall_coconutmilk" textref="texts_e02c01_isle_hall_glass_mo_used_mit_isle_hall_coconutmilk" />
+        <interaction mode="used_by" item="items_e02c01_isle_harbor_salt" sequenceref="sequences_e02c01_isle_hall_glass_used_mit_isle_harbor_salt_vieh" />
+        <interactmouseover itemref="items_e02c01_isle_harbor_salt" textref="texts_e02c01_isle_hall_glass_mo_used_mit_isle_harbor_salt_vieh" />
+        <interaction mode="use" sequenceref="sequences_e02c01_isle_hall_glass_use_vieh_2" />
+      </item>
+      <item idref="items_e02c01_isle_hall_drinkbaboonsbottom" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none">
+        <characters_critter interactionmode="take" mouseoverref="none" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="none" />
+        <interaction mode="use" characterId="characters_critter" sequenceref="sequences_e02c01_isle_hall_drinkbaboonsbottom_use_vieh_1" />
+        <characters_nate interactionmode="take" mouseoverref="texts_e02c01_isle_hall_drinkburningmary_mo_take_vieh_1" />
+        <interaction mode="use" characterId="characters_nate" sequenceref="sequences_e02c01_isle_hall_drinkbaboonsbottom_use_nate_1" />
+        <interaction mode="take" characterId="characters_critter" sequenceref="sequences_e02c01_isle_hall_drinkbaboonsbottom_take_vieh2" />
+        <interaction mode="take" characterId="characters_nate" sequenceref="sequences_e02c01_isle_hall_drinkbaboonsbottom_take_nate_1" />
+      </item>
+      <item idref="items_e02c01_isle_hall_drinkmojito" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none">
+        <characters_critter interactionmode="take" mouseoverref="none" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="none" />
+        <interaction mode="use" characterId="characters_critter" sequenceref="sequences_e02c01_isle_hall_drinkmojito_use_vieh_1" />
+        <characters_nate interactionmode="take" mouseoverref="texts_e02c01_isle_hall_drinkmojito_mo_take_vieh_1" />
+        <interaction mode="use" characterId="characters_nate" sequenceref="sequences_e02c01_isle_hall_drinkbaboonsbottom_use_nate_1" />
+        <interaction mode="take" characterId="characters_critter" sequenceref="sequences_e02c01_isle_hall_drinkmojito_take_vieh_3" />
+        <interaction mode="take" characterId="characters_nate" sequenceref="sequences_e02c01_isle_hall_drinkbaboonsbottom_take_nate_1" />
+      </item>
+      <item idref="items_e02c01_isle_hall_peppermint" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="used_by" item="items_e02c01_isle_hall_glass" sequenceref="sequences_e02c01_isle_hall_glass_used_mit_isle_hall_peppermint_vieh" />
+        <interactmouseover itemref="items_e02c01_isle_hall_glass" textref="texts_e02c01_isle_hall_glass_mo_used_mit_isle_hall_peppermint" />
+      </item>
+      <item idref="items_e02c01_isle_hall_drinkgrog_xd" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none" />
+      <item idref="items_e02c01_isle_hall_drinkburningmary" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none">
+        <characters_critter interactionmode="take" mouseoverref="texts_e02c01_isle_hall_drinkburningmary_mo_take_vieh_1" />
+        <characters_nate interactionmode="take" mouseoverref="texts_e02c01_isle_hall_drinkburningmary_mo_take_vieh_1" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="none" />
+        <interaction mode="use" characterId="characters_critter" sequenceref="sequences_e02c01_isle_hall_drinkburningmary_use_vieh_1" />
+        <interaction mode="use" characterId="characters_nate" sequenceref="sequences_e02c01_isle_hall_drinkbaboonsbottom_use_nate_1" />
+        <interaction mode="take" characterId="characters_critter" sequenceref="sequences_e02c01_isle_hall_drinkburningmary_take_vieh2" />
+        <interaction mode="take" characterId="characters_nate" sequenceref="sequences_e02c01_isle_hall_drinkbaboonsbottom_take_nate_1" />
+      </item>
+      <item idref="items_e02c01_isle_closeupbook_exithall" visualisation="default" interactionmode="leave" mouseoverref="texts_e02c01_isle_closeupbook_exithall_mo_leave" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_closeupbook_exithall">
+        <interaction mode="leave" sequenceref="sequences_leave_book_closeup" />
+      </item>
+      <item idref="items_e02c01_isle_closeupbook_previouspage" visualisation="default" interactionmode="use" mouseoverref="texts_e02c01_isle_closeupbook_previouspage_mo_use_1" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_closeupbook_previouspage" />
+      <item idref="items_e02c01_isle_closeupbook_pagebaboonsbottom" visualisation="default" interactionmode="none" mouseoverref="texts_e02c01_isle_closeupbook_pagebaboonsbottom_mo_ex_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e02c01_isle_closeupbook_pagebaboonsbottom_ex_1" />
+      </item>
+      <item idref="items_e02c01_isle_closeupbook_pageburningmary" visualisation="default" interactionmode="examine" mouseoverref="texts_e02c01_isle_closeupbook_pageburningmary_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_closeupbook_pageburningmary">
+        <interaction mode="examine" sequenceref="sequences_e02c01_isle_closeupbook_pageburningmary_ex_1" />
+      </item>
+      <item idref="items_e02c01_isle_closeupbook_pagegrog_xd" visualisation="default" interactionmode="examine" mouseoverref="texts_e02c01_isle_closeupbook_pagegrog_xd_mo_ex_1" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_closeupbook_pagegrog_xd">
+        <interaction mode="examine" sequenceref="sequences_e02c01_isle_closeupbook_pagegrog_xd_ex_1" />
+      </item>
+      <item idref="items_e02c01_isle_closeupbook_pagemojito" visualisation="default" interactionmode="none" mouseoverref="texts_e02c01_isle_closeupbook_pagemojito_mo_ex_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="examine" sequenceref="sequences_e02c01_isle_closeupbook_pagemojito_ex_1" />
+      </item>
+      <item idref="items_e02c01_isle_closeupbook_pagekaterkiller" visualisation="default" interactionmode="none" mouseoverref="texts_e02c01_isle_closeupbook_pagekaterkiller_mo_take_1" nameref="none" currentscene="none" currentlocation="none">
+        <interaction mode="take" sequenceref="sequences_e02c01_isle_closeupbook_seq_e02c01_isle_closeupbook_seitetake" />
+        <interaction mode="examine" sequenceref="sequences_e02c01_isle_closeupbook_pagekaterkiller_ex_1" />
+      </item>
+      <item idref="items_e02c01_isle_closeupbook_nextpage" visualisation="default" interactionmode="none" mouseoverref="texts_e02c01_isle_closeupbook_nextpage_mo_use_1" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_closeupbook_nextpage" />
+      <item idref="items_e02c01_isle_street_abyss" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_street_abyss">
+        <characters_critter interactionmode="none" mouseoverref="texts_e02c01_isle_street_abyss_mo_beteachten" />
+        <interaction mode="examine" characterId="characters_critter" sequenceref="sequences_e02c01_isle_street_abyss_ex_1_critter" />
+        <characters_nate interactionmode="examine" mouseoverref="texts_e02c01_isle_street_abyss_mo_beteachten" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="sequences_e02c01_isle_street_abyss_ex_2_nate" />
+      </item>
+      <item idref="items_e02c01_isle_street_palace" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="positions_items_e02c01_isle_street_palace">
+        <characters_nate interactionmode="none" mouseoverref="texts_e02c01_isle_street_palace_mo_ex_1-2" />
+        <interaction mode="examine" characterId="characters_nate" sequenceref="sequences_e02c01_isle_street_palace_ex_2_nate" />
+      </item>
+      <item idref="items_e02c01_isle_harbor_feather" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none" />
+      <item idref="items_e02c01_isle_street_banneret" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none" />
+      <item idref="items_e02c01_isle_street_barrels" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none" />
+      <item idref="items_e02c01_isle_street_field" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none" />
+      <item idref="items_e02c01_isle_street_newglas" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none" />
+      <item idref="items_outfit_critter_fur_colour" visualisation="default" interactionmode="none" mouseoverref="none" nameref="none" currentscene="none" currentlocation="none" />
+    </items>
+    <topics>
+      <topic idref="topics_pirate_top_e02c01_character_pirate_natestart_headhunter" sequenceref="sequences_pirate_top_e02c01_character_pirate_natestart_headhunter_tseq" titleref="texts_pirate_top_e02c01_character_pirate_natestart_headhunter_tseq_title" active="True" />
+      <topic idref="topics_pirate_top_e02c01_character_pirate_natestart_artifacts" sequenceref="sequences_pirate_top_e02c01_character_pirate_natestart_artifacts_tseq" titleref="texts_pirate_top_e02c01_character_pirate_natestart_artifacts_tseq_title" active="False" />
+      <topic idref="topics_pirate_top_e02c01_character_pirate_natestart_goaway" sequenceref="sequences_pirate_top_e02c01_character_pirate_natestart_goaway_tseq" titleref="texts_pirate_top_e02c01_character_pirate_natestart_goaway_tseq_title" active="True" />
+      <topic idref="topics_pirate_top_e02c01_character_pirate_natestart_artifactoffade" sequenceref="sequences_pirate_top_e02c01_character_pirate_natestart_artifactoffade_tseq" titleref="texts_pirate_top_e02c01_character_pirate_natestart_artifactoffade_tseq_title" active="False" />
+      <topic idref="topics_pirate_top_e02c01_character_pirate_natestandard_buendel" sequenceref="sequences_pirate_top_e02c01_character_pirate_natestandard_buendel_tseq" titleref="texts_pirate_top_e02c01_character_pirate_natestandard_buendel_tseq_title" active="False" />
+      <topic idref="topics_pirate_top_e02c01_character_pirate_natestandard_anderepiraten" sequenceref="sequences_pirate_top_e02c01_character_pirate_natestandard_anderepiraten_tseq" titleref="texts_pirate_top_e02c01_character_pirate_natestandard_anderepiraten_tseq_title" active="False" />
+      <topic idref="topics_pirate_top_e02c01_character_pirate_natestandard_verlassen" sequenceref="sequences_pirate_top_e02c01_character_pirate_natestandard_leave_tseq" titleref="texts_pirate_top_e02c01_character_pirate_natestandard_leave_tseq_title" active="True" />
+      <topic idref="topics_hunter_top_e02c01_character_hunter_viehstandard_insel" sequenceref="sequences_hunter_top_e02c01_character_hunter_viehstandard_insel_tseq" titleref="texts_hunter_top_e02c01_character_hunter_viehstandard_insel_tseq_title" active="False" />
+      <topic idref="topics_hunter_top_e02c01_character_hunter_viehstandard_fliehen" sequenceref="sequences_hunter_top_e02c01_character_hunter_viehstandard_fliehen_tseq" titleref="texts_hunter_top_e02c01_character_hunter_viehstandard_fliehen_tseq_title" active="False" />
+      <topic idref="topics_hunter_top_e02c01_character_hunter_viehstandard_katerkiller" sequenceref="sequences_hunter_top_e02c01_character_hunter_viehstandard_katerkiller_tseq" titleref="texts_hunter_top_e02c01_character_hunter_viehstandard_katerkiller_tseq_title" active="False" />
+      <topic idref="topics_hunter_top_e02c01_character_hunter_viehstandard_verabschiedenerstmalig" sequenceref="sequences_hunter_top_e02c01_character_hunter_viehstandard_verabschiedenerstmalig_tseq" titleref="texts_hunter_top_e02c01_character_hunter_viehstandard_verabschiedenerstmalig_tseq_title" active="False" />
+      <topic idref="topics_hunter_top_e02c01_character_hunter_viehstandard_verabschieden" sequenceref="sequences_hunter_top_e02c01_character_hunter_viehstandard_verabschieden_tseq" titleref="texts_hunter_top_e02c01_character_hunter_viehstandard_verabschieden_tseq_title" active="True" />
+      <topic idref="topics_hunter_top_e02c01_character_hunter_natestandard_abhauen" sequenceref="sequences_hunter_top_e02c01_character_hunter_natestandard_abhauen_tseq" titleref="texts_hunter_top_e02c01_character_hunter_natestandard_abhauen_tseq_title" active="False" />
+      <topic idref="topics_hunter_top_e02c01_character_hunter_natestandard_lampewert" sequenceref="sequences_hunter_top_e02c01_character_hunter_natestandard_lampewert_tseq" titleref="texts_hunter_top_e02c01_character_hunter_natestandard_lampewert_tseq_title" active="False" />
+      <topic idref="topics_hunter_top_e02c01_character_hunter_natestandard_zauber" sequenceref="sequences_hunter_top_e02c01_character_hunter_natestandard_zauber_tseq" titleref="texts_hunter_top_e02c01_character_hunter_natestandard_zauber_tseq_title" active="False" />
+      <topic idref="topics_hunter_top_e02c01_character_hunter_natestandard_anzug" sequenceref="sequences_hunter_top_e02c01_character_hunter_natestandard_anzug_tseq" titleref="texts_hunter_top_e02c01_character_hunter_natestandard_anzug_tseq_title" active="False" />
+      <topic idref="topics_hunter_top_e02c01_character_hunter_natestandard_plan" sequenceref="sequences_hunter_top_e02c01_character_hunter_natestandard_plan_tseq" titleref="texts_hunter_top_e02c01_character_hunter_natestandard_plan_tseq_title" active="False" />
+      <topic idref="topics_hunter_top_e02c01_character_hunter_natestandard_verabschieden" sequenceref="sequences_hunter_top_e02c01_character_hunter_natestandard_verabschieden_tseq" titleref="texts_hunter_top_e02c01_character_hunter_natestandard_verabschieden_tseq_title" active="True" />
+      <topic idref="topics_ape_top_e02c01_character_ape_viehdrinks_burningmary" sequenceref="sequences_ape_top_e02c01_character_ape_viehdrinks_burningmary_tseq" titleref="texts_ape_top_e02c01_character_ape_viehdrinks_burningmary_tseq_title" active="True" />
+      <topic idref="topics_ape_top_e02c01_character_ape_viehdrinks_grog" sequenceref="sequences_ape_top_e02c01_character_ape_viehdrinks_grog_tseq" titleref="texts_ape_top_e02c01_character_ape_viehdrinks_grog_tseq_title" active="True" />
+      <topic idref="topics_ape_top_e02c01_character_ape_viehdrinks_katerkiller" sequenceref="sequences_ape_top_e02c01_character_ape_viehdrinks_katerkiller_tseq" titleref="texts_hunter_top_e02c01_character_hunter_viehstandard_katerkiller_tseq_title" active="False" />
+      <topic idref="topics_ape_top_e02c01_character_ape_viehdrinks_mojito" sequenceref="sequences_ape_top_e02c01_character_ape_viehdrinks_mojito_tseq" titleref="texts_ape_top_e02c01_character_ape_viehdrinks_mojito_tseq_title" active="True" />
+      <topic idref="topics_ape_top_e02c01_character_ape_viehdrinks_whiterussian" sequenceref="sequences_ape_top_e02c01_character_ape_viehdrinks_whiterussian_tseq" titleref="texts_ape_top_e02c01_character_ape_viehdrinks_whiterussian_tseq_title" active="True" />
+      <topic idref="topics_ape_top_e02c01_character_ape_viehstandard_chat" sequenceref="sequences_ape_top_e02c01_character_ape_viehstandard_chat_tseq" titleref="texts_ape_top_e02c01_character_ape_viehstandard_chat_tseq_title" active="False" />
+      <topic idref="topics_ape_top_e02c01_character_ape_viehstandard_verabschieden" sequenceref="sequences_ape_top_e02c01_character_ape_viehstandard_verabschieden_tseq" titleref="texts_hunter_top_e02c01_character_hunter_viehstandard_verabschieden_tseq_title" active="True" />
+      <topic idref="topics_djinn_top_e02c01_character_djinn_natestandard_djinn" sequenceref="sequences_djinn_top_e02c01_character_djinn_natestandard_djinn_tseq" titleref="texts_djinn_top_e02c01_character_djinn_natestandard_djinn_tseq_title" active="True" />
+      <topic idref="topics_djinn_top_e02c01_character_djinn_natestandard_flucht" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_djinn_top_e02c01_character_djinn_natestandard_name" sequenceref="none" titleref="none" active="False" />
+      <topic idref="topics_djinn_top_e02c01_character_djinn_natestandard_wuensche" sequenceref="sequences_djinn_top_e02c01_character_djinn_natestandard_wuensche_tseq" titleref="texts_djinn_top_e02c01_character_djinn_natestandard_wuensche_tseq_title" active="True" />
+      <topic idref="topics_djinn_top_e02c01_character_djinn_natewuensche_klein" sequenceref="sequences_djinn_top_e02c01_character_djinn_natewuensche_klein_tseq" titleref="texts_djinn_top_e02c01_character_djinn_natewuensche_klein_tseq_title" active="True" />
+      <topic idref="topics_djinn_top_e02c01_character_djinn_natewuensche_schloss" sequenceref="sequences_djinn_top_e02c01_character_djinn_natewuensche_schloss_tseq" titleref="texts_djinn_top_e02c01_character_djinn_natewuensche_schloss_tseq_title" active="True" />
+      <topic idref="topics_djinn_top_e02c01_character_djinn_natewuensche_vorstellungskraft" sequenceref="sequences_djinn_top_e02c01_character_djinn_natewuensche_vorstellungskraft_tseq" titleref="texts_djinn_top_e02c01_character_djinn_natewuensche_vorstellungskraft_tseq_title" active="True" />
+      <topic idref="topics_djinn_top_e02c01_character_djinn_natezauber_befehl" sequenceref="sequences_djinn_top_e02c01_character_djinn_natezauber_befehl_tseq" titleref="texts_djinn_top_e02c01_character_djinn_natezauber_befehl_tseq_title" active="True" />
+      <topic idref="topics_djinn_top_e02c01_character_djinn_natezauber_piratkopfgeldjaeger" sequenceref="sequences_djinn_top_e02c01_character_djinn_natezauber_piratkopfgeldjaeger_tseq" titleref="texts_djinn_top_e02c01_character_djinn_natezauber_piratkopfgeldjaeger_tseq_title" active="True" />
+      <topic idref="topics_djinn_top_e02c01_character_djinn_natezauber_zureden" sequenceref="sequences_djinn_top_e02c01_character_djinn_natezauber_zutalk_tseq" titleref="texts_djinn_top_e02c01_character_djinn_natezauber_zutalk_tseq_title" active="True" />
+      <topic idref="topics_nate_top_e02c01_character_nate_viehstandard_lampe" sequenceref="sequences_nate_top_e02c01_character_nate_viehstandard_lampe_tseq" titleref="texts_nate_top_e02c01_character_nate_viehstandard_lampe_tseq_title" active="True" />
+      <topic idref="topics_nate_top_e02c01_character_nate_viehstandard_trinken" sequenceref="sequences_nate_top_e02c01_character_nate_viehstandard_trinken_tseq" titleref="texts_nate_top_e02c01_character_nate_viehstandard_trinken_tseq_title" active="True" />
+      <topic idref="topics_nate_top_e02c01_character_nate_viehstandard_verabschieden" sequenceref="sequences_nate_top_e02c01_character_nate_viehstandard_verabschieden_tseq" titleref="texts_hunter_top_e02c01_character_hunter_viehstandard_verabschieden_tseq_title" active="True" />
+      <topic idref="topics_nate_top_e02c01_character_nate_viehstandard_wechseln" sequenceref="sequences_nate_top_e02c01_character_nate_viehstandard_wechseln_tseq" titleref="texts_nate_top_e02c01_character_nate_viehstandard_wechseln_tseq_title" active="True" />
+      <topic idref="topics_critter_top_e02c01_character_vieh_natestandard_katerkiller" sequenceref="sequences_critter_top_e02c01_character_vieh_natestandard_katerkiller_tseq" titleref="texts_critter_top_e02c01_character_vieh_natestandard_katerkiller_tseq_title" active="False" />
+      <topic idref="topics_critter_top_e02c01_character_vieh_natestandard_teamwork" sequenceref="sequences_critter_top_e02c01_character_vieh_natestandard_teamwork_tseq" titleref="texts_critter_top_e02c01_character_vieh_natestandard_teamwork_tseq_title" active="False" />
+      <topic idref="topics_critter_top_e02c01_character_vieh_natestandard_wechseln" sequenceref="sequences_critter_top_e02c01_character_vieh_natestandard_wechseln_tseq" titleref="texts_critter_top_e02c01_character_vieh_natestandard_wechseln_tseq_title" active="True" />
+      <topic idref="topics_critter_top_e02c01_character_vieh_natestandard_verabschieden" sequenceref="sequences_critter_top_e02c01_character_vieh_natestandard_verabschieden_tseq" titleref="texts_critter_top_e02c01_character_vieh_natestandard_verabschieden_tseq_title" active="True" />
+      <topic idref="topics_pirate_top_e02c01_character_pirate_natedrunk_reward" sequenceref="none" titleref="none" active="false" />
+      <topic idref="topics_pirate_top_e02c01_character_pirate_natedrunk_want" sequenceref="none" titleref="none" active="false" />
+      <topic idref="topics_pirate_top_e02c01_character_pirate_natewilliam_him" sequenceref="none" titleref="none" active="false" />
+      <topic idref="topics_pirate_top_e02c01_character_pirate_natewilliam_me" sequenceref="none" titleref="none" active="false" />
+    </topics>
+    <currentscene sceneid="scenes_e02c01_isle_hall" shot="default" />
+    <questlog />
+    <global>
+      <flags>
+        <outfits_ivo_fishinghat />
+        <outfits_wilbur_paperhat />
+      </flags>
+    </global>
+    <inventory>
+      <character characterid="characters_critter">
+        <item itemid="items_e02c01_isle_hall_peanuts" />
+      </character>
+      <character characterid="characters_nate">
+        <item itemid="items_e02c01_isle_hall_peanuts" />
+        <item itemid="items_e02c01_isle_hall_page" />
+      </character>
+    </inventory>
+    <party>
+      <member characterid="characters_critter" />
+      <member characterid="characters_nate" />
+    </party>
+    <logics>
+      <logic idref="items_e02c01_isle_closeupbook_exithall">
+        <state stateid="door" />
+      </logic>
+      <logic idref="items_e02c01_isle_closeupbook_nextpage">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_e02c01_isle_closeupbook_pagebaboonsbottom">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_e02c01_isle_closeupbook_pageburningmary">
+        <state stateid="active" />
+      </logic>
+      <logic idref="items_e02c01_isle_closeupbook_pagegrog_xd">
+        <state stateid="active" />
+      </logic>
+      <logic idref="items_e02c01_isle_closeupbook_pagekaterkiller">
+        <history stateid="State_">
+          <state stateid="take" />
+        </history>
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_e02c01_isle_closeupbook_pagemojito">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_e02c01_isle_closeupbook_previouspage">
+        <state stateid="door" />
+      </logic>
+      <logic idref="items_e02c01_isle_hall_book">
+        <state stateid="ex_01_02" />
+        <state stateid="off_02" />
+      </logic>
+      <logic idref="items_e02c01_isle_hall_coconutcup">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c01_isle_hall_coconutmilk">
+        <interactionitem item="items_e02c01_isle_hall_glass" />
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c01_isle_hall_compass">
+        <state stateid="off_01" />
+        <state stateid="off_02" />
+      </logic>
+      <logic idref="items_e02c01_isle_hall_drinkbaboonsbottom">
+        <property key="table" value="False" />
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_e02c01_isle_hall_drinkburningmary">
+        <property key="table" value="False" />
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_e02c01_isle_hall_drinkgrog_xd">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_e02c01_isle_hall_drinkkaterkiller">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c01_isle_hall_drinkmojito">
+        <property key="table" value="False" />
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_e02c01_isle_hall_excalibur">
+        <interactionitem item="items_e02c01_isle_street_coconut" characterId="characters_critter" />
+        <state stateid="off" />
+        <state stateid="off_02" />
+      </logic>
+      <logic idref="items_e02c01_isle_hall_exitstreet">
+        <state stateid="leave_01_01" />
+        <state stateid="leave_02_01" />
+      </logic>
+      <logic idref="items_e02c01_isle_hall_fezape">
+        <property key="inScene" value="False" />
+        <interactionitem item="items_e02c01_isle_harbor_fez" characterId="characters_critter" />
+        <interactionitem item="items_e02c01_isle_harbor_fez" characterId="characters_nate" />
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_e02c01_isle_hall_glass">
+        <interactionitem item="items_e02c01_isle_hall_peanuts" />
+        <interactionitem item="items_e02c01_isle_hall_peppermint" />
+        <interactionitem item="items_e02c01_isle_hall_coconutmilk" />
+        <interactionitem item="items_e02c01_isle_harbor_salt" />
+        <history stateid="State_3">
+          <state stateid="State_" />
+        </history>
+        <history stateid="State_4">
+          <state stateid="State_2" />
+        </history>
+        <history stateid="State_5">
+          <state stateid="State_1" />
+        </history>
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c01_isle_hall_hornofplenty">
+        <interactionitem item="items_e02c01_isle_street_pan" characterId="characters_critter" />
+        <interactionitem item="items_e02c01_isle_hall_glass" characterId="characters_critter" />
+        <state stateid="critter_off" />
+        <state stateid="nate_off" />
+      </logic>
+      <logic idref="items_e02c01_isle_hall_medusa">
+        <state stateid="take_01_01" />
+        <state stateid="ex_02_03" />
+      </logic>
+      <logic idref="items_e02c01_isle_hall_oillamp">
+        <state stateid="ex_01_02" />
+        <state stateid="ex_02_01" />
+      </logic>
+      <logic idref="items_e02c01_isle_hall_page">
+        <history stateid="State_">
+          <state stateid="not_visible" />
+        </history>
+        <state stateid="inventory_nate" />
+      </logic>
+      <logic idref="items_e02c01_isle_hall_peanuts">
+        <interactionitem item="items_e02c01_isle_street_pan" />
+        <interactionitem item="items_e02c01_isle_hall_glass" />
+        <state stateid="inventory_01" />
+        <state stateid="inventory_02" />
+      </logic>
+      <logic idref="items_e02c01_isle_hall_peanutsbowl">
+        <state stateid="take_01_01" />
+        <state stateid="take_02_01" />
+      </logic>
+      <logic idref="items_e02c01_isle_hall_peppermint">
+        <interactionitem item="items_e02c01_isle_hall_glass" />
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_e02c01_isle_harbor_barrel">
+        <state stateid="blanket_critter" />
+        <state stateid="blanket_nate" />
+      </logic>
+      <logic idref="items_e02c01_isle_harbor_barrellid">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_e02c01_isle_harbor_bitt">
+        <interactionitem item="items_e02c01_isle_street_pan" characterId="characters_critter" />
+        <state stateid="off_01" />
+        <state stateid="off_02" />
+      </logic>
+      <logic idref="items_e02c01_isle_harbor_blanket">
+        <state stateid="parrot_critter" />
+        <state stateid="parrot_nate" />
+      </logic>
+      <logic idref="items_e02c01_isle_harbor_box">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_e02c01_isle_harbor_exitstreet">
+        <state stateid="leave_01_01" />
+        <state stateid="leave_02_01" />
+      </logic>
+      <logic idref="items_e02c01_isle_harbor_fez">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_e02c01_isle_harbor_magiclock">
+        <interactionitem item="items_e02c01_isle_harbor_mirror" characterId="characters_critter" />
+        <state stateid="use_01_01" />
+        <state stateid="ex_02_02" />
+      </logic>
+      <logic idref="items_e02c01_isle_harbor_mary">
+        <interactionitem item="items_e02c01_isle_harbor_mirror" characterId="characters_critter" />
+        <state stateid="ex_01_01" />
+        <state stateid="ex_02_02" />
+      </logic>
+      <logic idref="items_e02c01_isle_harbor_mirror">
+        <state stateid="ex_01_02" />
+        <state stateid="off_02" />
+      </logic>
+      <logic idref="items_e02c01_isle_harbor_salt">
+        <interactionitem item="items_e02c01_isle_hall_glass" />
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c01_isle_street_abyss">
+        <state stateid="off_01" />
+        <state stateid="ex_02_02" />
+      </logic>
+      <logic idref="items_e02c01_isle_street_coconut">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c01_isle_street_coconuttree">
+        <state stateid="off" />
+        <state stateid="ex_nate" />
+      </logic>
+      <logic idref="items_e02c01_isle_street_exithall">
+        <state stateid="leave_01_01" />
+        <state stateid="leave_02_01" />
+      </logic>
+      <logic idref="items_e02c01_isle_street_exitharbor">
+        <state stateid="leave_01_01" />
+        <state stateid="leave_02_01" />
+      </logic>
+      <logic idref="items_e02c01_isle_street_palace">
+        <state stateid="off" />
+      </logic>
+      <logic idref="items_e02c01_isle_street_pan">
+        <interactionitem item="items_e02c01_isle_hall_peanuts" />
+        <property key="water" value="True" />
+        <history stateid="State_1">
+          <state stateid="full" />
+        </history>
+        <state stateid="tmp_off" />
+      </logic>
+      <logic idref="items_e02c01_isle_street_pillory">
+        <state stateid="off_01" />
+        <state stateid="off_02" />
+      </logic>
+      <logic idref="items_e02c01_isle_street_pinboard">
+        <state stateid="off_01" />
+        <state stateid="off_02" />
+      </logic>
+      <logic idref="items_e02c01_isle_street_shop">
+        <state stateid="off_01" />
+        <state stateid="ex_02_02" />
+      </logic>
+      <logic idref="items_e02c01_isle_street_statue1">
+        <property key="examined" value="2" />
+        <state stateid="off_01" />
+        <state stateid="off_02" />
+        <state stateid="examined_cnt" />
+      </logic>
+      <logic idref="items_e02c01_isle_street_statue2">
+        <state stateid="off_01" />
+        <state stateid="off_02" />
+      </logic>
+      <logic idref="items_e02c01_isle_street_statue3">
+        <state stateid="off_01" />
+        <state stateid="ex_02_01" />
+      </logic>
+      <logic idref="items_e02c01_isle_street_watertrough">
+        <interactionitem item="items_e02c01_isle_hall_drinkkaterkiller" characterId="characters_critter" />
+        <interactionitem item="items_e02c01_isle_street_pan" condition="full" characterId="characters_critter" />
+        <interactionitem item="items_e02c01_isle_street_coconut" characterId="characters_critter" />
+        <state stateid="off_01" />
+        <state stateid="off_02" />
+      </logic>
+      <logic idref="items_outfit_critter_fur_colour">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="items_starter">
+        <state stateid="door" />
+      </logic>
+      <logic idref="characters_ape">
+        <interactionitem item="items_e02c01_isle_harbor_fez" characterId="characters_critter" />
+        <interactionitem item="items_e02c01_isle_hall_peanuts" characterId="characters_critter" />
+        <interactionitem item="items_e02c01_isle_harbor_fez" characterId="characters_nate" />
+        <interactionitem item="items_e02c01_isle_hall_peanuts" characterId="characters_nate" />
+        <interactionitem item="items_e02c01_isle_street_pan" characterId="characters_critter" />
+        <interactionitem item="items_e02c01_isle_street_coconut" characterId="characters_critter" />
+        <interactionitem item="items_e02c01_isle_hall_glass" characterId="characters_critter" />
+        <state stateid="talk_01_01" />
+        <state stateid="ex_02_02" />
+        <state stateid="nate_sober" />
+      </logic>
+      <logic idref="topics_ape_top_e02c01_character_ape_viehstandard_chat">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="3" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_ape_top_e02c01_character_ape_viehdrinks_whiterussian">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_ape_top_e02c01_character_ape_viehdrinks_mojito">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="4" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_ape_top_e02c01_character_ape_viehdrinks_grog">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_ape_top_e02c01_character_ape_viehdrinks_burningmary">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="5" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_ape_top_e02c01_character_ape_viehdrinks_katerkiller">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="off" />
+      </logic>
+      <logic idref="topics_ape_top_e02c01_character_ape_viehstandard_verabschieden">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="5" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="characters_critter">
+        <interactionitem item="items_e02c01_isle_hall_peanuts" />
+        <interactionitem item="items_e02c01_isle_hall_page" />
+        <interactionitem item="items_e02c01_isle_harbor_barrellid" />
+        <interactionitem item="items_e02c01_isle_harbor_fez" />
+        <state stateid="State1" />
+        <state stateid="State_1" />
+        <state stateid="State_2" />
+        <state stateid="State_3" />
+        <state stateid="State_4" />
+      </logic>
+      <logic idref="topics_critter_top_e02c01_character_vieh_natestandard_katerkiller">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_critter_top_e02c01_character_vieh_natestandard_teamwork">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="State_" />
+      </logic>
+      <logic idref="topics_critter_top_e02c01_character_vieh_natestandard_wechseln">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_critter_top_e02c01_character_vieh_natestandard_verabschieden">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="characters_djinn">
+        <state stateid="State1" />
+      </logic>
+      <logic idref="topics_djinn_top_e02c01_character_djinn_natestandard_djinn">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_djinn_top_e02c01_character_djinn_natestandard_name">
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="topics_djinn_top_e02c01_character_djinn_natestandard_wuensche">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_djinn_top_e02c01_character_djinn_natewuensche_klein">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_djinn_top_e02c01_character_djinn_natewuensche_vorstellungskraft">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_djinn_top_e02c01_character_djinn_natewuensche_schloss">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_djinn_top_e02c01_character_djinn_natestandard_flucht">
+        <state stateid="open" />
+        <state stateid="open_1" />
+      </logic>
+      <logic idref="topics_djinn_top_e02c01_character_djinn_natezauber_piratkopfgeldjaeger">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_djinn_top_e02c01_character_djinn_natezauber_befehl">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_djinn_top_e02c01_character_djinn_natezauber_zureden">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="characters_hunter">
+        <interactionitem item="items_e02c01_isle_street_pan" condition="full" characterId="characters_critter" />
+        <interactionitem item="items_e02c01_isle_hall_coconutmilk" characterId="characters_critter" />
+        <history stateid="State_1">
+          <state stateid="talk_01_02" />
+        </history>
+        <history stateid="State_">
+          <state stateid="ex_02_01" />
+        </history>
+        <state stateid="nate_sober_critter" />
+        <state stateid="ex_02_01" />
+        <state stateid="off" />
+        <state stateid="nate_sober" />
+      </logic>
+      <logic idref="topics_hunter_top_e02c01_character_hunter_viehstandard_insel">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_hunter_top_e02c01_character_hunter_viehstandard_fliehen">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_hunter_top_e02c01_character_hunter_viehstandard_katerkiller">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_hunter_top_e02c01_character_hunter_viehstandard_verabschiedenerstmalig">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_hunter_top_e02c01_character_hunter_viehstandard_verabschieden">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_hunter_top_e02c01_character_hunter_natestandard_abhauen">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_hunter_top_e02c01_character_hunter_natestandard_lampewert">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_hunter_top_e02c01_character_hunter_natestandard_zauber">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_hunter_top_e02c01_character_hunter_natestandard_anzug">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_hunter_top_e02c01_character_hunter_natestandard_plan">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_hunter_top_e02c01_character_hunter_natestandard_verabschieden">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="characters_nate">
+        <interactionitem item="items_e02c01_isle_hall_peanuts" />
+        <interactionitem item="items_e02c01_isle_hall_page" />
+        <interactionitem item="items_e02c01_isle_harbor_barrellid" />
+        <interactionitem item="items_e02c01_isle_harbor_fez" />
+        <state stateid="State1" />
+        <state stateid="State_1" />
+        <state stateid="State_2" />
+        <state stateid="State_3" />
+        <state stateid="State_4" />
+      </logic>
+      <logic idref="topics_nate_top_e02c01_character_nate_viehstandard_trinken">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_nate_top_e02c01_character_nate_viehstandard_lampe">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_nate_top_e02c01_character_nate_viehstandard_wechseln">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_nate_top_e02c01_character_nate_viehstandard_verabschieden">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="characters_parrot">
+        <interactionitem item="items_e02c01_isle_harbor_mirror" characterId="characters_critter" />
+        <interactionitem item="items_e02c01_isle_hall_peanuts" characterId="characters_critter" />
+        <interactionitem item="items_e02c01_isle_hall_peanuts" characterId="characters_nate" />
+        <state stateid="talk_01_01" />
+        <state stateid="ex_02_02" />
+        <state stateid="first_critter" />
+        <state stateid="following_nate" />
+      </logic>
+      <logic idref="characters_pirate">
+        <interactionitem item="items_e02c01_isle_street_pan" characterId="characters_critter" />
+        <history stateid="State_">
+          <state stateid="talk_01_01" />
+        </history>
+        <history stateid="State_1">
+          <state stateid="ex_02_02" />
+        </history>
+        <state stateid="talk_01_01" />
+        <state stateid="ex_02_02" />
+      </logic>
+      <logic idref="topics_pirate_top_e02c01_character_pirate_natestart_headhunter">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_pirate_top_e02c01_character_pirate_natestart_artifacts">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_pirate_top_e02c01_character_pirate_natestart_goaway">
+        <property key="Active" value="True" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="topics_pirate_top_e02c01_character_pirate_natestart_artifactoffade">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_pirate_top_e02c01_character_pirate_natestandard_buendel">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_pirate_top_e02c01_character_pirate_natestandard_anderepiraten">
+        <property key="Active" value="False" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="spoken" />
+      </logic>
+      <logic idref="topics_pirate_top_e02c01_character_pirate_natestandard_verlassen">
+        <property key="Active" value="True" />
+        <property key="SpokenCount" value="1" />
+        <state stateid="active" />
+      </logic>
+      <logic idref="scenes_e02c01_isle_closeupbook">
+        <history stateid="State_2">
+          <state stateid="normal" />
+        </history>
+        <state stateid="normal" />
+      </logic>
+      <logic idref="scenes_e02c01_isle_hall">
+        <history stateid="State_2">
+          <state stateid="normal" />
+        </history>
+        <state stateid="normal" />
+      </logic>
+      <logic idref="scenes_e02c01_isle_harbor">
+        <history stateid="State_2">
+          <state stateid="normal" />
+        </history>
+        <state stateid="normal" />
+      </logic>
+      <logic idref="scenes_e02c01_isle_street">
+        <history stateid="State_2">
+          <state stateid="normal" />
+        </history>
+        <state stateid="normal" />
+      </logic>
+      <logic idref="scenes_e02c01_special_mystery">
+        <history stateid="State_2">
+          <state stateid="done" />
+        </history>
+        <state stateid="done" />
+      </logic>
+      <logic idref="tasks_closeupbook">
+        <property key="page" value="2" />
+        <property key="page_removed" value="True" />
+        <state stateid="page_2" />
+      </logic>
+      <logic idref="tasks_mg_fighting">
+        <state stateid="done" />
+      </logic>
+      <logic idref="tasks_mg_shaking">
+        <property key="failed" value="False" />
+        <state stateid="inactive" />
+      </logic>
+      <logic idref="tasks_party">
+        <state stateid="playCritter" />
+      </logic>
+      <logic idref="tasks_process">
+        <property key="drink_recipe" value="True" />
+        <property key="drink_glass" value="True" />
+        <property key="drink_peppermint" value="True" />
+        <property key="drink_milk" value="True" />
+        <property key="drink_salt" value="True" />
+        <property key="drink_shake" value="True" />
+        <property key="nate_sober" value="True" />
+        <state stateid="State_" />
+        <state stateid="State_1" />
+        <state stateid="State_3" />
+        <state stateid="State_5" />
+        <state stateid="State_6" />
+        <state stateid="State_9" />
+        <state stateid="parot_harbor" />
+        <state stateid="distracted_no" />
+        <state stateid="State_2" />
+      </logic>
+      <logic idref="tasks_trigger_shop">
+        <state stateid="trigger" />
+      </logic>
+    </logics>
+    <persistences>
+      <persistence idref="characters_voice" />
+      <persistence idref="ME_Butterfly_01">
+        <visualState value="standard" />
+      </persistence>
+      <persistence idref="ME_Butterfly_02">
+        <visualState value="standard" />
+      </persistence>
+      <persistence idref="characters_nate">
+        <placement position="-5.838747 0.00591791 2.669977" forward="0.8940324 0 -0.4480023" />
+      </persistence>
+      <persistence idref="items_e02c01_isle_hall_compass" />
+      <persistence idref="MoveTarget_bar" />
+      <persistence idref="focus_hunter_lamp" />
+      <persistence idref="common_Mojito">
+        <attachment targetId="Critter_R_Hand_item" />
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="ISt_Pan">
+        <attachment targetId="Critter_R_Hand_item" />
+        <enabled value="False" />
+        <visualState value="getWater_pan@end" />
+      </persistence>
+      <persistence idref="mt_peanutsbowl" />
+      <persistence idref="IHl_FaceCam">
+        <visualState value="down_idle@end" />
+      </persistence>
+      <persistence idref="items_e02c01_isle_hall_excalibur" />
+      <persistence idref="characters_ape" />
+      <persistence idref="items_e02c01_isle_hall_exitstreet" />
+      <persistence idref="djinn_lamp" />
+      <persistence idref="items_e02c01_isle_hall_book" />
+      <persistence idref="IHl_Medusa">
+        <visualState value="sleep_idle@end" />
+      </persistence>
+      <persistence idref="IHl_Drink_WhiteRussian">
+        <attachment targetId="Table_MaryRusMoj_Pos" />
+        <enabled value="True" />
+      </persistence>
+      <persistence idref="IHl_Knife">
+        <attachment targetId="Ape_lHand_item" />
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="IHl_Cover" />
+      <persistence idref="characters_critter">
+        <placement position="1.292639 0.00591791 -4.362058" forward="-0.1511217 0 0.9885151" />
+      </persistence>
+      <persistence idref="characters_pirate" />
+      <persistence idref="IHl_Shaker">
+        <visualState value="barReden_idle@end" />
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="IHl_Drink_BurningMary">
+        <attachment targetId="Ape_rHand_item" />
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="items_e02c01_isle_hall_hornofplenty" />
+      <persistence idref="IHl_Drink_Mojito">
+        <attachment targetId="Ape_rHand_item" />
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="laser" />
+      <persistence idref="items_e02c01_isle_hall_drinkmojito" />
+      <persistence idref="items_e02c01_isle_hall_drinkburningmary" />
+      <persistence idref="IH_Fez">
+        <attachment targetId="Table_Fez_Pos" />
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="CT_water_glass">
+        <attachment targetId="RedPirate_lHand_item" />
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="characters_hunter" />
+      <persistence idref="items_e02c01_isle_hall_fezape" />
+      <persistence idref="redpirate_gun">
+        <attachment targetId="RedPirate_rHand_item" />
+        <enabled value="True" />
+      </persistence>
+      <persistence idref="IHl_SteeringWheel">
+        <visualState value="default_cocktail@end" />
+      </persistence>
+      <persistence idref="IS_CoconutCups">
+        <attachment targetId="Critter_R_Hand_item" />
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="IS_CoconutMilk">
+        <attachment targetId="Critter_L_Hand_item" />
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="IHl_CocktailsBook" />
+      <persistence idref="IHl_FezBig" />
+      <persistence idref="IHl_Drink_Grog" />
+      <persistence idref="IS_Coconut">
+        <visualState value="streetDialog_coconut@end" />
+        <enabled value="False" />
+        <attachment targetId="Critter_R_Hand_item" />
+      </persistence>
+      <persistence idref="IHl_Peanuts" />
+      <persistence idref="common_coconut">
+        <attachment targetId="Critter_L_Hand_item" />
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="items_e02c01_isle_hall_drinkgrog_xd" />
+      <persistence idref="items_e02c01_isle_hall_peanutsbowl" />
+      <persistence idref="items_e02c01_isle_hall_medusa" />
+      <persistence idref="UCv_Match">
+        <attachment targetId="Ape_rHand_item" />
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="CT_Water_Glas_02">
+        <attachment targetId="Nate_lHand_item" />
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="IHl_Towel">
+        <attachment targetId="Ape_rHand_item" />
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="items_e02c01_isle_hall_oillamp" />
+      <persistence idref="items_e02c01_isle_hall_drinkbaboonsbottom" />
+      <persistence idref="UW_longPlank" />
+      <persistence idref="sp_street_target" />
+      <persistence idref="mt_focus_coconut" />
+      <persistence idref="Sp_shop" />
+      <persistence idref="SP_Vieh_MT" />
+      <persistence idref="IS_Hatch" />
+      <persistence idref="Standard_Booksheet_Foldable">
+        <attachment targetId="Critter_R_Hand_item" />
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="Focus_Cam" />
+      <persistence idref="MT_Parrot_Back" />
+      <persistence idref="items_e02c01_isle_street_pillory" />
+      <persistence idref="items_e02c01_isle_street_watertrough" />
+      <persistence idref="mt_coconut" />
+      <persistence idref="IS_Pillory" />
+      <persistence idref="items_e02c01_isle_street_abyss" />
+      <persistence idref="items_e02c01_isle_street_coconuttree" />
+      <persistence idref="IS_Gate" />
+      <persistence idref="items_e02c01_isle_street_palace" />
+      <persistence idref="items_e02c01_isle_street_exithall" />
+      <persistence idref="ISt_Pan02">
+        <attachment targetId="Critter_R_Hand_item" />
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="items_e02c01_isle_street_coconut" />
+      <persistence idref="MT_Vieh_KaterkillerEnd" />
+      <persistence idref="IS_symbolplates_01" />
+      <persistence idref="items_e02c01_isle_street_statue2" />
+      <persistence idref="FT_cam_enter" />
+      <persistence idref="characters_parrot" />
+      <persistence idref="IS_symbolplates_02" />
+      <persistence idref="MT_Dialog_Hunter" />
+      <persistence idref="items_e02c01_isle_street_statue3" />
+      <persistence idref="IHl_Drink_Mojito2" />
+      <persistence idref="ISt_Palms">
+        <visualState value="standard" />
+      </persistence>
+      <persistence idref="IS_symbolplates_03" />
+      <persistence idref="items_e02c01_isle_street_exitharbor" />
+      <persistence idref="Sp_shop_target" />
+      <persistence idref="mt_shop" />
+      <persistence idref="items_e02c01_isle_street_shop" />
+      <persistence idref="SP_Street" />
+      <persistence idref="items_e02c01_isle_street_pinboard" />
+      <persistence idref="items_e02c01_isle_street_statue1" />
+      <persistence idref="SP_Vieh_Start" />
+      <persistence idref="MT_shop_oben" />
+      <persistence idref="items_e02c01_isle_closeupbook_pagebaboonsbottom" />
+      <persistence idref="items_e02c01_isle_closeupbook_pagemojito" />
+      <persistence idref="CocktailBook_CloseUp">
+        <visualState value="flipFwdPage1@end" />
+      </persistence>
+      <persistence idref="items_e02c01_isle_closeupbook_exithall" />
+      <persistence idref="items_e02c01_isle_closeupbook_previouspage" />
+      <persistence idref="items_e02c01_isle_closeupbook_pagegrog_xd" />
+      <persistence idref="items_e02c01_isle_closeupbook_pagekaterkiller" />
+      <persistence idref="items_e02c01_isle_closeupbook_nextpage" />
+      <persistence idref="items_e02c01_isle_closeupbook_pageburningmary" />
+      <persistence idref="items_e02c01_isle_harbor_box" />
+      <persistence idref="items_e02c01_isle_harbor_exitstreet" />
+      <persistence idref="IHr_Chain">
+        <visualState value="mary_idle@end" />
+      </persistence>
+      <persistence idref="SP_From_street_target" />
+      <persistence idref="items_e02c01_isle_harbor_bitt" />
+      <persistence idref="items_e02c01_isle_harbor_blanket" />
+      <persistence idref="characters_djinn" />
+      <persistence idref="mt_mary_betrachten" />
+      <persistence idref="Harbor_Pan_Water">
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="Harbor_Pan_Salt">
+        <enabled value="False" />
+      </persistence>
+      <persistence idref="IHr_Harbor">
+        <visualState value="collapse" />
+      </persistence>
+      <persistence idref="mt_salt" />
+      <persistence idref="mt_vieh_barrel_use" />
+      <persistence idref="ISt_Pan_02">
+        <enabled value="True" />
+      </persistence>
+      <persistence idref="redpirate_gun02" />
+      <persistence idref="items_e02c01_isle_harbor_mirror" />
+      <persistence idref="IHr_BurningGlass">
+        <visualState value="mirrorParrot@end" />
+      </persistence>
+      <persistence idref="IH_Fez02" />
+      <persistence idref="IHr_BarrelCover" />
+      <persistence idref="mt_pan_on_bitt" />
+      <persistence idref="IHr_Mary">
+        <visualState value="mary" />
+      </persistence>
+      <persistence idref="IHr_Lock">
+        <visualState value="default" />
+      </persistence>
+      <persistence idref="items_e02c01_isle_harbor_mary" />
+      <persistence idref="SP_Parrot" />
+      <persistence idref="IHr_Blanket" />
+      <persistence idref="IHr_CrateCover" />
+      <persistence idref="SP_From_street" />
+      <persistence idref="items_e02c01_isle_harbor_barrel" />
+      <persistence idref="items_e02c01_isle_harbor_magiclock" />
+      <persistence idref="water_boiling">
+        <visualState value="mirrorBitt@end" />
+      </persistence>
+    </persistences>
+    <achievements>
+      <achievement id="e02c01_sober" />
+    </achievements>
+    <databinding />
+  </gamestate>
+</savegame>

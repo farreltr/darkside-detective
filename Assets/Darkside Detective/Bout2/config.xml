@@ -1,0 +1,16 @@
+<config>
+  <volume>
+    <music>0.8</music>
+    <effect>0.8</effect>
+    <speech>0.8</speech>
+  </volume>
+  <lang>
+    <speech>en</speech>
+    <text>en</text>
+  </lang>
+  <input>0</input>
+  <unlocks>
+    <unlock>episode_02</unlock>
+  </unlocks>
+  <persistence />
+</config>
